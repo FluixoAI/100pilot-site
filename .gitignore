@@ -1,0 +1,11 @@
+# Outil de tunnel local et son état (pas pour le dépôt, 50+ Mo)
+.preview-tools/
+
+# Inventaire interne : statuts clients non publics (voir README)
+source-inventory.json
+
+# Anciennes versions de build, contiennent des libellés clients non anonymisés
+.editorial/before/
+.editorial/before-brand-v5/
+
+node_modules/

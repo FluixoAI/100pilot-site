@@ -1,0 +1,959 @@
+{
+  "skills": [
+    {
+      "name": "Humanizer",
+      "source": "https://github.com/blader/humanizer"
+    },
+    {
+      "name": "Copy-editing",
+      "source": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/copy-editing"
+    }
+  ],
+  "pages": 106,
+  "workflows": 47,
+  "sourceWorkflowFieldsPreserved": [
+    "id",
+    "pageIds",
+    "group",
+    "today",
+    "action",
+    "result",
+    "example",
+    "steps",
+    "needs",
+    "approval"
+  ],
+  "caseLimitsPreserved": 29,
+  "routesAndCaseStatusesPreserved": true,
+  "editorialPasses": [
+    {
+      "name": "Clarity",
+      "change": "Titres par tâche, exemples et sorties nommés ; portée des services et études corrigée."
+    },
+    {
+      "name": "Voice and tone",
+      "change": "Vouvoiement et français professionnel direct ; suppression des slogans et formulations creuses."
+    },
+    {
+      "name": "So what",
+      "change": "Recherche de fichiers, relecture et travail administratif reliés au résultat attendu par l’équipe."
+    },
+    {
+      "name": "Prove it",
+      "change": "Statuts et limites conservés, cartes de cas factuelles, exemples signalés ; aucune mesure de ROI inventée."
+    },
+    {
+      "name": "Specificity",
+      "change": "Questions par tâche, besoins de départ et huit scénarios textiles présentés distinctement."
+    },
+    {
+      "name": "Emotion",
+      "change": "Situations quotidiennes reconnaissables ; pas d’urgence ou de peur ajoutée."
+    },
+    {
+      "name": "Zero risk",
+      "change": "Prochain échange explicite, méthode secondaire, validations visibles, email à relire avant envoi."
+    }
+  ],
+  "landingPageSelfReview": {
+    "type": "Single-agent simulated perspectives; subjective editorial rubric, not an external panel or conversion measurement",
+    "beforeFinalAdjustments": {
+      "conversion": 8,
+      "ux": 7,
+      "prospect": 7,
+      "brand": 8
+    },
+    "corrections": [
+      "Cartes de cas : récit spécifique plutôt que résultat générique",
+      "Suppression du double marqueur des bénéfices",
+      "Présentation séparée des huit scénarios de l’étude textile",
+      "Données et validations des cas de synthèse adaptées au périmètre"
+    ],
+    "afterFinalAdjustments": {
+      "conversion": 8,
+      "ux": 8,
+      "prospect": 8,
+      "brand": 8
+    }
+  },
+  "browserChecks": {
+    "desktop": [
+      1280,
+      900
+    ],
+    "mobile": [
+      390,
+      844
+    ],
+    "routes": [
+      "/",
+      "/services/",
+      "/solutions/classement-factures/",
+      "/realisations/distribution-b2b-stocks-fournisseurs/",
+      "/etudes/sport-textile-automatisation/",
+      "/ressources/prioriser-automatisations/",
+      "/contact/?sujet=Classement%20des%20factures"
+    ],
+    "details": "Method disclosure and task FAQ open correctly",
+    "overflow": "No horizontal overflow observed on inspected mobile pages",
+    "contact": "Context prefilled, message prepared with synthetic test data, mailto recipient verified as lucas.lenoir@100pilot.ai; no email sent",
+    "sharedImages": "All three image assets loaded in public browser preview",
+    "screenshot": "qa/screenshots/home-editorial-v4.png"
+  },
+  "sharedPreview": {
+    "status": 200,
+    "noindex": "noindex, nofollow, none, none",
+    "currentHeadline": true
+  },
+  "failures": [],
+  "reviewed": [
+    {
+      "id": "P001",
+      "url": "/",
+      "family": "Socle",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P002",
+      "url": "/services/",
+      "family": "Socle",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P003",
+      "url": "/solutions/",
+      "family": "Socle",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P004",
+      "url": "/realisations/",
+      "family": "Socle",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P005",
+      "url": "/etudes/",
+      "family": "Socle",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P007",
+      "url": "/secteurs/",
+      "family": "Socle",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P008",
+      "url": "/integrations/",
+      "family": "Socle",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P009",
+      "url": "/ressources/",
+      "family": "Socle",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P010",
+      "url": "/agence/",
+      "family": "Socle",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P011",
+      "url": "/methode/",
+      "family": "Socle",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P012",
+      "url": "/contact/",
+      "family": "Socle",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P013",
+      "url": "/services/audit-automatisation/",
+      "family": "Service",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P014",
+      "url": "/services/automatisation-odoo/",
+      "family": "Service",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P015",
+      "url": "/services/prospection-b2b/",
+      "family": "Service",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P016",
+      "url": "/services/contenu-produit-seo/",
+      "family": "Service",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P017",
+      "url": "/services/automatisation-administrative/",
+      "family": "Service",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P018",
+      "url": "/services/agents-ia-supervises/",
+      "family": "Service",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P019",
+      "url": "/services/portails-metier/",
+      "family": "Service",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P020",
+      "url": "/services/documentation-technique/",
+      "family": "Service",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P021",
+      "url": "/services/audit-seo-geo/",
+      "family": "Service",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P022",
+      "url": "/services/outils-conversion-b2b/",
+      "family": "Service",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P023",
+      "url": "/services/prototype-metier/",
+      "family": "Service",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P024",
+      "url": "/services/maintenance-automatisations/",
+      "family": "Service",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P025",
+      "url": "/solutions/consolidation-stocks-fournisseurs/",
+      "family": "Solution",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P026",
+      "url": "/solutions/commandes-fournisseurs/",
+      "family": "Solution",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P027",
+      "url": "/solutions/disponibilite-fournisseurs/",
+      "family": "Solution",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P028",
+      "url": "/solutions/grille-prix-revendeurs/",
+      "family": "Solution",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P029",
+      "url": "/solutions/listes-prix-odoo/",
+      "family": "Solution",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P030",
+      "url": "/solutions/nettoyage-catalogue/",
+      "family": "Solution",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P031",
+      "url": "/solutions/variantes-sku/",
+      "family": "Solution",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P032",
+      "url": "/solutions/enrichissement-fiches-produits/",
+      "family": "Solution",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P033",
+      "url": "/solutions/catalogues-personnalises/",
+      "family": "Solution",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P034",
+      "url": "/solutions/rapprochement-crm/",
+      "family": "Solution",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P035",
+      "url": "/solutions/enrichissement-entreprises/",
+      "family": "Solution",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P036",
+      "url": "/solutions/sourcing-leads-b2b/",
+      "family": "Solution",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P037",
+      "url": "/solutions/prospection-clubs-sportifs/",
+      "family": "Solution",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P038",
+      "url": "/solutions/prospection-textile-entreprises/",
+      "family": "Solution",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P039",
+      "url": "/solutions/infrastructure-email/",
+      "family": "Solution",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P040",
+      "url": "/solutions/classement-factures/",
+      "family": "Solution",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P041",
+      "url": "/solutions/relances-impayes/",
+      "family": "Solution",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P042",
+      "url": "/solutions/suivi-couverture-credit/",
+      "family": "Solution",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P043",
+      "url": "/solutions/quiz-qualification/",
+      "family": "Solution",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P044",
+      "url": "/solutions/calculateur-cout/",
+      "family": "Solution",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P045",
+      "url": "/solutions/formulaires-contextuels/",
+      "family": "Solution",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P046",
+      "url": "/solutions/fidelite-crm/",
+      "family": "Solution",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P047",
+      "url": "/solutions/portail-suivi-dossiers/",
+      "family": "Solution",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P048",
+      "url": "/solutions/pdf-vers-documentation/",
+      "family": "Solution",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P049",
+      "url": "/solutions/contenu-multilingue/",
+      "family": "Solution",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P050",
+      "url": "/solutions/publication-produits/",
+      "family": "Solution",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P051",
+      "url": "/solutions/validation-agents-ia/",
+      "family": "Solution",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P052",
+      "url": "/realisations/distribution-b2b-automatisation-odoo/",
+      "family": "Réalisation",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": "Travaux documentés"
+    },
+    {
+      "id": "P053",
+      "url": "/realisations/distribution-b2b-stocks-fournisseurs/",
+      "family": "Réalisation",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": "Exécutions documentées"
+    },
+    {
+      "id": "P054",
+      "url": "/realisations/distribution-b2b-prospection/",
+      "family": "Réalisation",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": "Fichier de prospection documenté"
+    },
+    {
+      "id": "P055",
+      "url": "/realisations/distribution-b2b-attributs-catalogue/",
+      "family": "Réalisation",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": "Travaux de catalogue documentés"
+    },
+    {
+      "id": "P056",
+      "url": "/realisations/distribution-b2b-nettoyage-catalogue/",
+      "family": "Réalisation",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": "Fichier de catalogue documenté"
+    },
+    {
+      "id": "P057",
+      "url": "/realisations/distribution-b2b-rapprochement-crm/",
+      "family": "Réalisation",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": "Exports de rapprochement documentés"
+    },
+    {
+      "id": "P058",
+      "url": "/realisations/distribution-b2b-import-crm/",
+      "family": "Réalisation",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": "Exports d’import documentés"
+    },
+    {
+      "id": "P059",
+      "url": "/realisations/recrutement-parcours-commercial/",
+      "family": "Réalisation",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": "Parcours déployés et testés"
+    },
+    {
+      "id": "P060",
+      "url": "/realisations/recrutement-quiz-orientation/",
+      "family": "Réalisation",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": "Quiz déployé et testé"
+    },
+    {
+      "id": "P061",
+      "url": "/realisations/recrutement-calculateur/",
+      "family": "Réalisation",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": "Calculateur déployé et testé"
+    },
+    {
+      "id": "P062",
+      "url": "/realisations/services-b2b-contenus/",
+      "family": "Réalisation",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": "Contenus documentés"
+    },
+    {
+      "id": "P063",
+      "url": "/realisations/formation-manuel-technique/",
+      "family": "Réalisation",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": "Préparation documentée"
+    },
+    {
+      "id": "P064",
+      "url": "/realisations/infrastructure-prospection-email/",
+      "family": "Réalisation",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": "Installation et tests documentés"
+    },
+    {
+      "id": "P065",
+      "url": "/etudes/diagnostic-portail-suivi/",
+      "family": "Étude",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": "Prototype métier"
+    },
+    {
+      "id": "P066",
+      "url": "/realisations/ecommerce-parcours-langues/",
+      "family": "Réalisation",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": "Intervention documentée"
+    },
+    {
+      "id": "P067",
+      "url": "/realisations/ecommerce-publication-supervisee/",
+      "family": "Réalisation",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": "Projet interne documenté"
+    },
+    {
+      "id": "P068",
+      "url": "/etudes/migration-site-multilingue/",
+      "family": "Étude",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": "Préparation de migration"
+    },
+    {
+      "id": "P069",
+      "url": "/etudes/marketing-assistants-supervises/",
+      "family": "Étude",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": "Pilote supervisé"
+    },
+    {
+      "id": "P070",
+      "url": "/etudes/sport-textile-automatisation/",
+      "family": "Étude",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": "Scénario proposé"
+    },
+    {
+      "id": "P071",
+      "url": "/etudes/sport-textile-commandes-stocks/",
+      "family": "Étude",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": "Scénario proposé"
+    },
+    {
+      "id": "P072",
+      "url": "/etudes/sport-textile-prospection/",
+      "family": "Étude",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": "Scénario proposé"
+    },
+    {
+      "id": "P073",
+      "url": "/etudes/sport-textile-factures-frais/",
+      "family": "Étude",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": "Scénario proposé"
+    },
+    {
+      "id": "P074",
+      "url": "/etudes/retail-programme-fidelite/",
+      "family": "Étude",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": "Scénario proposé"
+    },
+    {
+      "id": "P075",
+      "url": "/etudes/restauration-commandes-fidelite/",
+      "family": "Étude",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": "Scénario et maquette proposés"
+    },
+    {
+      "id": "P076",
+      "url": "/etudes/production-tracabilite-lots/",
+      "family": "Étude",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": "Prototype proposé"
+    },
+    {
+      "id": "P077",
+      "url": "/etudes/missions-disponibilites/",
+      "family": "Étude",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": "Prototype proposé"
+    },
+    {
+      "id": "P078",
+      "url": "/realisations/audit-site-b2b/",
+      "family": "Réalisation",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": "Audit réalisé"
+    },
+    {
+      "id": "P079",
+      "url": "/etudes/ecommerce-catalogue-multilingue/",
+      "family": "Étude",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": "Scénario proposé"
+    },
+    {
+      "id": "P084",
+      "url": "/secteurs/distribution-b2b/",
+      "family": "Secteur",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P085",
+      "url": "/secteurs/equipement-sport-textile/",
+      "family": "Secteur",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P086",
+      "url": "/secteurs/services-b2b/",
+      "family": "Secteur",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P087",
+      "url": "/secteurs/restauration-retail/",
+      "family": "Secteur",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P088",
+      "url": "/secteurs/formation-technique/",
+      "family": "Secteur",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P089",
+      "url": "/integrations/odoo/",
+      "family": "Intégration",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P090",
+      "url": "/integrations/google-drive/",
+      "family": "Intégration",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P091",
+      "url": "/integrations/email/",
+      "family": "Intégration",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P092",
+      "url": "/integrations/flux-fournisseurs/",
+      "family": "Intégration",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P093",
+      "url": "/integrations/wordpress/",
+      "family": "Intégration",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P094",
+      "url": "/ressources/prioriser-automatisations/",
+      "family": "Ressource",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P095",
+      "url": "/ressources/mesurer-roi-automatisation/",
+      "family": "Ressource",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P096",
+      "url": "/ressources/regles-ou-agents-ia/",
+      "family": "Ressource",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P097",
+      "url": "/ressources/validation-humaine/",
+      "family": "Ressource",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P098",
+      "url": "/ressources/preparer-integration-odoo/",
+      "family": "Ressource",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P099",
+      "url": "/ressources/factures-multisocietes/",
+      "family": "Ressource",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P100",
+      "url": "/ressources/qualite-fiches-produits-ia/",
+      "family": "Ressource",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P101",
+      "url": "/ressources/rapprochement-crm-siret/",
+      "family": "Ressource",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P102",
+      "url": "/ressources/prototype-vers-production/",
+      "family": "Ressource",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P103",
+      "url": "/ressources/case-study-seo-geo/",
+      "family": "Ressource",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P104",
+      "url": "/solutions/marges-circuits-vente/",
+      "family": "Solution",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P105",
+      "url": "/solutions/preparation-import-crm/",
+      "family": "Solution",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P106",
+      "url": "/solutions/commandes-directes/",
+      "family": "Solution",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P107",
+      "url": "/solutions/assistant-commande-bilingue/",
+      "family": "Solution",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P108",
+      "url": "/solutions/tracabilite-lots/",
+      "family": "Solution",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P109",
+      "url": "/solutions/rapprochement-lots-acheteurs/",
+      "family": "Solution",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P110",
+      "url": "/solutions/suivi-missions-disponibilites/",
+      "family": "Solution",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": null
+    },
+    {
+      "id": "P111",
+      "url": "/etudes/hotellerie-suivi-operations/",
+      "family": "Étude",
+      "h1Changed": true,
+      "descriptionChanged": true,
+      "sourceStatus": "Prototype interne"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-02",
+  "localOnly": true,
+  "viewportChecks": [
+    {
+      "width": 1280,
+      "page": "/services/",
+      "overflow": false,
+      "heroImagesLoaded": true
+    },
+    {
+      "width": 1280,
+      "page": "/services/automatisation-odoo/",
+      "overflow": false,
+      "heroImagesLoaded": true
+    },
+    {
+      "width": 850,
+      "page": "/services/",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "page": "/services/",
+      "overflow": false,
+      "expertiseColumns": 1
+    },
+    {
+      "width": 390,
+      "page": "/",
+      "overflow": false,
+      "heroImagesLoaded": true
+    },
+    {
+      "width": 390,
+      "page": "/etudes/sport-textile-automatisation/",
+      "overflow": false,
+      "excludedNames": false,
+      "studyStatus": "Étude proposée · Cas anonymisé"
+    }
+  ],
+  "interactions": {
+    "serviceJump": true,
+    "serviceDetailNavigation": true,
+    "mobileMenuOpen": true,
+    "mobileMenuEscapeClose": true,
+    "anonymizedStudyNavigation": true
+  },
+  "motion": {
+    "intersectionRevealObserved": true,
+    "reducedMotionHandledInStylesAndScript": true
+  },
+  "notes": [
+    "Offscreen lazy image loading on mobile is deferred by the browser.",
+    "Form submission and email delivery were not changed or retested in this design revision."
+  ]
+}

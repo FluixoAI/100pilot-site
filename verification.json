@@ -1,0 +1,562 @@
+{
+  "pages": 110,
+  "visibleWorkflows": 47,
+  "uniqueTitles": 110,
+  "uniqueDescriptions": 110,
+  "internalRoutesAndAssets": 113,
+  "schemas": 418,
+  "unknownRoute": 404,
+  "failures": [],
+  "result": [
+    {
+      "url": "/",
+      "status": 200,
+      "mainWords": 764
+    },
+    {
+      "url": "/services/",
+      "status": 200,
+      "mainWords": 931
+    },
+    {
+      "url": "/solutions/",
+      "status": 200,
+      "mainWords": 1862
+    },
+    {
+      "url": "/realisations/",
+      "status": 200,
+      "mainWords": 727
+    },
+    {
+      "url": "/etudes/",
+      "status": 200,
+      "mainWords": 605
+    },
+    {
+      "url": "/secteurs/",
+      "status": 200,
+      "mainWords": 259
+    },
+    {
+      "url": "/integrations/",
+      "status": 200,
+      "mainWords": 243
+    },
+    {
+      "url": "/ressources/",
+      "status": 200,
+      "mainWords": 432
+    },
+    {
+      "url": "/agence/",
+      "status": 200,
+      "mainWords": 448
+    },
+    {
+      "url": "/methode/",
+      "status": 200,
+      "mainWords": 385
+    },
+    {
+      "url": "/contact/",
+      "status": 200,
+      "mainWords": 166
+    },
+    {
+      "url": "/services/audit-automatisation/",
+      "status": 200,
+      "mainWords": 695
+    },
+    {
+      "url": "/services/automatisation-odoo/",
+      "status": 200,
+      "mainWords": 927
+    },
+    {
+      "url": "/services/prospection-b2b/",
+      "status": 200,
+      "mainWords": 796
+    },
+    {
+      "url": "/services/contenu-produit-seo/",
+      "status": 200,
+      "mainWords": 662
+    },
+    {
+      "url": "/services/automatisation-administrative/",
+      "status": 200,
+      "mainWords": 755
+    },
+    {
+      "url": "/services/agents-ia-supervises/",
+      "status": 200,
+      "mainWords": 524
+    },
+    {
+      "url": "/services/portails-metier/",
+      "status": 200,
+      "mainWords": 671
+    },
+    {
+      "url": "/services/documentation-technique/",
+      "status": 200,
+      "mainWords": 579
+    },
+    {
+      "url": "/services/audit-seo-geo/",
+      "status": 200,
+      "mainWords": 598
+    },
+    {
+      "url": "/services/outils-conversion-b2b/",
+      "status": 200,
+      "mainWords": 659
+    },
+    {
+      "url": "/services/prototype-metier/",
+      "status": 200,
+      "mainWords": 695
+    },
+    {
+      "url": "/services/maintenance-automatisations/",
+      "status": 200,
+      "mainWords": 584
+    },
+    {
+      "url": "/solutions/consolidation-stocks-fournisseurs/",
+      "status": 200,
+      "mainWords": 580
+    },
+    {
+      "url": "/solutions/commandes-fournisseurs/",
+      "status": 200,
+      "mainWords": 541
+    },
+    {
+      "url": "/solutions/disponibilite-fournisseurs/",
+      "status": 200,
+      "mainWords": 620
+    },
+    {
+      "url": "/solutions/grille-prix-revendeurs/",
+      "status": 200,
+      "mainWords": 529
+    },
+    {
+      "url": "/solutions/listes-prix-odoo/",
+      "status": 200,
+      "mainWords": 518
+    },
+    {
+      "url": "/solutions/nettoyage-catalogue/",
+      "status": 200,
+      "mainWords": 519
+    },
+    {
+      "url": "/solutions/variantes-sku/",
+      "status": 200,
+      "mainWords": 512
+    },
+    {
+      "url": "/solutions/enrichissement-fiches-produits/",
+      "status": 200,
+      "mainWords": 543
+    },
+    {
+      "url": "/solutions/catalogues-personnalises/",
+      "status": 200,
+      "mainWords": 536
+    },
+    {
+      "url": "/solutions/rapprochement-crm/",
+      "status": 200,
+      "mainWords": 560
+    },
+    {
+      "url": "/solutions/enrichissement-entreprises/",
+      "status": 200,
+      "mainWords": 524
+    },
+    {
+      "url": "/solutions/sourcing-leads-b2b/",
+      "status": 200,
+      "mainWords": 576
+    },
+    {
+      "url": "/solutions/prospection-clubs-sportifs/",
+      "status": 200,
+      "mainWords": 521
+    },
+    {
+      "url": "/solutions/prospection-textile-entreprises/",
+      "status": 200,
+      "mainWords": 523
+    },
+    {
+      "url": "/solutions/infrastructure-email/",
+      "status": 200,
+      "mainWords": 537
+    },
+    {
+      "url": "/solutions/classement-factures/",
+      "status": 200,
+      "mainWords": 553
+    },
+    {
+      "url": "/solutions/relances-impayes/",
+      "status": 200,
+      "mainWords": 554
+    },
+    {
+      "url": "/solutions/suivi-couverture-credit/",
+      "status": 200,
+      "mainWords": 551
+    },
+    {
+      "url": "/solutions/quiz-qualification/",
+      "status": 200,
+      "mainWords": 524
+    },
+    {
+      "url": "/solutions/calculateur-cout/",
+      "status": 200,
+      "mainWords": 515
+    },
+    {
+      "url": "/solutions/formulaires-contextuels/",
+      "status": 200,
+      "mainWords": 531
+    },
+    {
+      "url": "/solutions/fidelite-crm/",
+      "status": 200,
+      "mainWords": 535
+    },
+    {
+      "url": "/solutions/portail-suivi-dossiers/",
+      "status": 200,
+      "mainWords": 534
+    },
+    {
+      "url": "/solutions/pdf-vers-documentation/",
+      "status": 200,
+      "mainWords": 534
+    },
+    {
+      "url": "/solutions/contenu-multilingue/",
+      "status": 200,
+      "mainWords": 511
+    },
+    {
+      "url": "/solutions/publication-produits/",
+      "status": 200,
+      "mainWords": 536
+    },
+    {
+      "url": "/solutions/validation-agents-ia/",
+      "status": 200,
+      "mainWords": 503
+    },
+    {
+      "url": "/realisations/distribution-b2b-automatisation-odoo/",
+      "status": 200,
+      "mainWords": 802
+    },
+    {
+      "url": "/realisations/distribution-b2b-stocks-fournisseurs/",
+      "status": 200,
+      "mainWords": 547
+    },
+    {
+      "url": "/realisations/distribution-b2b-prospection/",
+      "status": 200,
+      "mainWords": 539
+    },
+    {
+      "url": "/realisations/distribution-b2b-attributs-catalogue/",
+      "status": 200,
+      "mainWords": 519
+    },
+    {
+      "url": "/realisations/distribution-b2b-nettoyage-catalogue/",
+      "status": 200,
+      "mainWords": 520
+    },
+    {
+      "url": "/realisations/distribution-b2b-rapprochement-crm/",
+      "status": 200,
+      "mainWords": 544
+    },
+    {
+      "url": "/realisations/distribution-b2b-import-crm/",
+      "status": 200,
+      "mainWords": 528
+    },
+    {
+      "url": "/realisations/recrutement-parcours-commercial/",
+      "status": 200,
+      "mainWords": 541
+    },
+    {
+      "url": "/realisations/recrutement-quiz-orientation/",
+      "status": 200,
+      "mainWords": 526
+    },
+    {
+      "url": "/realisations/recrutement-calculateur/",
+      "status": 200,
+      "mainWords": 520
+    },
+    {
+      "url": "/realisations/services-b2b-contenus/",
+      "status": 200,
+      "mainWords": 506
+    },
+    {
+      "url": "/realisations/formation-manuel-technique/",
+      "status": 200,
+      "mainWords": 555
+    },
+    {
+      "url": "/realisations/infrastructure-prospection-email/",
+      "status": 200,
+      "mainWords": 513
+    },
+    {
+      "url": "/etudes/diagnostic-portail-suivi/",
+      "status": 200,
+      "mainWords": 590
+    },
+    {
+      "url": "/realisations/ecommerce-parcours-langues/",
+      "status": 200,
+      "mainWords": 593
+    },
+    {
+      "url": "/realisations/ecommerce-publication-supervisee/",
+      "status": 200,
+      "mainWords": 620
+    },
+    {
+      "url": "/etudes/migration-site-multilingue/",
+      "status": 200,
+      "mainWords": 512
+    },
+    {
+      "url": "/etudes/marketing-assistants-supervises/",
+      "status": 200,
+      "mainWords": 488
+    },
+    {
+      "url": "/etudes/sport-textile-automatisation/",
+      "status": 200,
+      "mainWords": 1073
+    },
+    {
+      "url": "/etudes/sport-textile-commandes-stocks/",
+      "status": 200,
+      "mainWords": 599
+    },
+    {
+      "url": "/etudes/sport-textile-prospection/",
+      "status": 200,
+      "mainWords": 657
+    },
+    {
+      "url": "/etudes/sport-textile-factures-frais/",
+      "status": 200,
+      "mainWords": 567
+    },
+    {
+      "url": "/etudes/retail-programme-fidelite/",
+      "status": 200,
+      "mainWords": 556
+    },
+    {
+      "url": "/etudes/restauration-commandes-fidelite/",
+      "status": 200,
+      "mainWords": 639
+    },
+    {
+      "url": "/etudes/production-tracabilite-lots/",
+      "status": 200,
+      "mainWords": 570
+    },
+    {
+      "url": "/etudes/missions-disponibilites/",
+      "status": 200,
+      "mainWords": 484
+    },
+    {
+      "url": "/realisations/audit-site-b2b/",
+      "status": 200,
+      "mainWords": 506
+    },
+    {
+      "url": "/etudes/ecommerce-catalogue-multilingue/",
+      "status": 200,
+      "mainWords": 488
+    },
+    {
+      "url": "/secteurs/distribution-b2b/",
+      "status": 200,
+      "mainWords": 773
+    },
+    {
+      "url": "/secteurs/equipement-sport-textile/",
+      "status": 200,
+      "mainWords": 731
+    },
+    {
+      "url": "/secteurs/services-b2b/",
+      "status": 200,
+      "mainWords": 718
+    },
+    {
+      "url": "/secteurs/restauration-retail/",
+      "status": 200,
+      "mainWords": 685
+    },
+    {
+      "url": "/secteurs/formation-technique/",
+      "status": 200,
+      "mainWords": 551
+    },
+    {
+      "url": "/integrations/odoo/",
+      "status": 200,
+      "mainWords": 540
+    },
+    {
+      "url": "/integrations/google-drive/",
+      "status": 200,
+      "mainWords": 496
+    },
+    {
+      "url": "/integrations/email/",
+      "status": 200,
+      "mainWords": 530
+    },
+    {
+      "url": "/integrations/flux-fournisseurs/",
+      "status": 200,
+      "mainWords": 533
+    },
+    {
+      "url": "/integrations/wordpress/",
+      "status": 200,
+      "mainWords": 514
+    },
+    {
+      "url": "/ressources/prioriser-automatisations/",
+      "status": 200,
+      "mainWords": 418
+    },
+    {
+      "url": "/ressources/mesurer-roi-automatisation/",
+      "status": 200,
+      "mainWords": 409
+    },
+    {
+      "url": "/ressources/regles-ou-agents-ia/",
+      "status": 200,
+      "mainWords": 384
+    },
+    {
+      "url": "/ressources/validation-humaine/",
+      "status": 200,
+      "mainWords": 375
+    },
+    {
+      "url": "/ressources/preparer-integration-odoo/",
+      "status": 200,
+      "mainWords": 409
+    },
+    {
+      "url": "/ressources/factures-multisocietes/",
+      "status": 200,
+      "mainWords": 413
+    },
+    {
+      "url": "/ressources/qualite-fiches-produits-ia/",
+      "status": 200,
+      "mainWords": 403
+    },
+    {
+      "url": "/ressources/rapprochement-crm-siret/",
+      "status": 200,
+      "mainWords": 389
+    },
+    {
+      "url": "/ressources/prototype-vers-production/",
+      "status": 200,
+      "mainWords": 366
+    },
+    {
+      "url": "/ressources/case-study-seo-geo/",
+      "status": 200,
+      "mainWords": 411
+    },
+    {
+      "url": "/solutions/marges-circuits-vente/",
+      "status": 200,
+      "mainWords": 518
+    },
+    {
+      "url": "/solutions/preparation-import-crm/",
+      "status": 200,
+      "mainWords": 534
+    },
+    {
+      "url": "/solutions/commandes-directes/",
+      "status": 200,
+      "mainWords": 523
+    },
+    {
+      "url": "/solutions/assistant-commande-bilingue/",
+      "status": 200,
+      "mainWords": 527
+    },
+    {
+      "url": "/solutions/tracabilite-lots/",
+      "status": 200,
+      "mainWords": 478
+    },
+    {
+      "url": "/solutions/rapprochement-lots-acheteurs/",
+      "status": 200,
+      "mainWords": 491
+    },
+    {
+      "url": "/solutions/suivi-missions-disponibilites/",
+      "status": 200,
+      "mainWords": 464
+    },
+    {
+      "url": "/etudes/hotellerie-suivi-operations/",
+      "status": 200,
+      "mainWords": 514
+    },
+    {
+      "url": "/pour-votre-equipe/",
+      "status": 200,
+      "mainWords": 174
+    },
+    {
+      "url": "/pour-votre-equipe/dirigeant-pme/",
+      "status": 200,
+      "mainWords": 529
+    },
+    {
+      "url": "/pour-votre-equipe/responsable-commercial/",
+      "status": 200,
+      "mainWords": 635
+    },
+    {
+      "url": "/pour-votre-equipe/responsable-operations/",
+      "status": 200,
+      "mainWords": 635
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-02",
+  "preview": "http://127.0.0.1:18762/",
+  "desktop": {
+    "homepage": "visually checked",
+    "servicesToOdoo": "navigation and concrete content checked",
+    "pvdStocks": "status, context and limits checked"
+  },
+  "mobile": {
+    "requestedViewport": "390x844",
+    "documentWidth": 375,
+    "documentScrollWidth": 375,
+    "homepage": "visually checked, no horizontal overflow",
+    "menu": "open, navigation and Escape close checked",
+    "favaStudy": "visually checked, proposed-study status visible",
+    "faq": "question expands and answer is visible",
+    "temporaryViewportReset": true
+  },
+  "brief": {
+    "data": "fictitious test values only",
+    "serviceContext": "Odoo subject passed to contact field",
+    "generation": "required fields produce a visible complete brief",
+    "copyControl": "success feedback observed after synchronous browser copy",
+    "clipboardReceipt": "not attested: automation virtual clipboard is separate from page clipboard",
+    "downloadReceipt": "not attested: embedded-browser automation did not return a download event",
+    "externalDelivery": "not connected; no message sent",
+    "consoleErrors": []
+  },
+  "publication": "none; loopback preview only, noindex enabled"
+}

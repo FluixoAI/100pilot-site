@@ -1,0 +1,10 @@
+{
+  "name": "100pilot-local-v1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node serve.mjs",
+    "check": "node verify.mjs"
+  }
+}

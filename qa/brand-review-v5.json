@@ -1,0 +1,104 @@
+{
+  "version": "Brand V5",
+  "source": "Plateforme de marque V1 — 100pilot.ai, supplied by Pascal on 2026-10-02",
+  "pages": 110,
+  "previousRoutesRetained": 106,
+  "personaPages": 3,
+  "workflowsPreserved": 47,
+  "casesPreserved": 29,
+  "taskIllustrations": 47,
+  "direction": {
+    "positioning": "Help choose, build, deliver and follow the first task",
+    "promise": "Du pilotage manuel au pilote automatique",
+    "colours": [
+      "#04342C",
+      "#085041",
+      "#1D9E75",
+      "#E1F5EE"
+    ],
+    "typography": [
+      "Georgia",
+      "Segoe UI"
+    ],
+    "logo": [
+      "assets/logo.svg",
+      "assets/logo-mark.svg"
+    ],
+    "artwork": "Illustrative HTML/SVG inputs and outputs, no client screenshots"
+  },
+  "editorialReview": {
+    "skills": [
+      "Humanizer",
+      "Copy-editing"
+    ],
+    "passes": [
+      "Clarity: roles, inputs and usable outputs",
+      "Tone: direct French, vous, familiar daily tasks",
+      "Benefit: preparation work delegated and decisions retained",
+      "Evidence: case statuses, proof and limits preserved",
+      "Specificity: distinct diagrams for 47 tasks",
+      "Emotion: everyday friction, no artificial urgency",
+      "Next step: describe a task, prepare and review an email"
+    ],
+    "excludedCommitments": [
+      "Fixed batches of three",
+      "Free audit",
+      "Two-week delivery",
+      "Unmeasured hours saved or ROI",
+      "No oversight or no risk"
+    ],
+    "perspectives": {
+      "type": "Single-agent editorial self-review, not an external customer test",
+      "conversion": 8,
+      "ux": 8,
+      "prospect": 8,
+      "brand": 8
+    }
+  },
+  "browserChecks": {
+    "desktop": [
+      1280,
+      900
+    ],
+    "mobile": [
+      390,
+      844
+    ],
+    "tabs": "Click and ArrowRight switch visible example and aria-selected",
+    "menu": "Opens, closes with Escape",
+    "journey": "Home example to commercial page to contact; role prefilled; synthetic message prepared for lucas.lenoir@100pilot.ai, no email sent",
+    "mobileJourney": "Home to operations page, no horizontal overflow observed"
+  },
+  "shareUrl": "https://bring-seven-bibliography-performances.trycloudflare.com",
+  "publicChecks": [
+    {
+      "route": "/",
+      "status": 200
+    },
+    {
+      "route": "/pour-votre-equipe/dirigeant-pme/",
+      "status": 200
+    },
+    {
+      "route": "/pour-votre-equipe/responsable-commercial/",
+      "status": 200
+    },
+    {
+      "route": "/pour-votre-equipe/responsable-operations/",
+      "status": 200
+    },
+    {
+      "route": "/services/",
+      "status": 200
+    },
+    {
+      "route": "/assets/site.css",
+      "status": 200
+    },
+    {
+      "route": "/assets/logo.svg",
+      "status": 200
+    }
+  ],
+  "failures": []
+}

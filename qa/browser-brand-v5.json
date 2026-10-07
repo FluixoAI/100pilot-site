@@ -1,0 +1,67 @@
+{
+  "renderedRoutes": [
+    {
+      "route": "/realisations/distribution-b2b-stocks-fournisseurs/",
+      "h1": "Distribution B2B : consulter les stocks fournisseurs",
+      "dimensions": {
+        "documentWidth": 1265,
+        "width": 1280
+      },
+      "evidence": "Le résultat et ses limites\n\nDes exécutions du moteur de rapprochement et consolidation de stocks sont documentées au 24 septembre 2026. Le traitement relie les références fournisseurs aux produits Odoo.\n\nLe dossier documente le travail et son livrable. Il ne fournit pas de mesure de temps gagné ou de résultat commercial attribué."
+    },
+    {
+      "route": "/etudes/sport-textile-automatisation/",
+      "h1": "Sport et textile : choisir parmi huit tâches à simplifier",
+      "dimensions": {
+        "documentWidth": 1265,
+        "width": 1280
+      },
+      "evidence": "État du projet\n\nL’étude d’un équipementier sport et textile décrit huit opportunités : commandes, disponibilités, prix revendeurs, deux prospections, contenus, classement des pièces et relances. Les dernières corrections prévoient notamment une boîte par société pour les factures.\n\nCette étude décrit une proposition. Aucun déploiement ni gain mesuré n’est revendiqué."
+    },
+    {
+      "route": "/ressources/prioriser-automatisations/",
+      "h1": "Quelle tâche automatiser en premier ?",
+      "dimensions": {
+        "documentWidth": 1265,
+        "width": 1280
+      }
+    },
+    {
+      "route": "/agence/",
+      "h1": "Le pilote automatique, à partir de votre métier.",
+      "dimensions": {
+        "documentWidth": 1265,
+        "width": 1280
+      }
+    },
+    {
+      "route": "/methode/",
+      "h1": "Une première tâche. Un résultat à vérifier.",
+      "dimensions": {
+        "documentWidth": 1265,
+        "width": 1280
+      }
+    }
+  ],
+  "desktop": [
+    1280,
+    900
+  ],
+  "mobile": [
+    390,
+    844
+  ],
+  "checkedInteractions": [
+    "Persona navigation",
+    "Three example tabs, click and keyboard",
+    "Mobile menu and Escape",
+    "Commercial context in contact form",
+    "Prepared synthetic message, recipient verified; no email sent"
+  ],
+  "publicUrl": "https://bring-seven-bibliography-performances.trycloudflare.com/",
+  "screenshots": [
+    "home-brand-v5-desktop.png",
+    "home-brand-v5-mobile.png",
+    "personas-brand-v5-desktop.png"
+  ]
+}

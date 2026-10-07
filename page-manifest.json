@@ -1,0 +1,1346 @@
+{
+  "generatedAt": "2026-10-02",
+  "localOnly": false,
+  "origin": "https://100pilot.ai",
+  "pages": [
+    {
+      "id": "P001",
+      "url": "/",
+      "family": "Socle",
+      "title": "100 Pilot | Automatisation et IA pour les PME",
+      "h1": "Passez vos tâches répétitives en pilote automatique.",
+      "description": "Présenter des workflows concrets, de l’audit à la maintenance. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S01,S02,S04",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "P002",
+      "url": "/services/",
+      "family": "Socle",
+      "title": "Services d’automatisation et IA pour les PME | 100 Pilot",
+      "h1": "Quelles tâches voulez-vous nous confier ?",
+      "description": "Décrire les missions vendues, leurs livrables et leur mode de collaboration. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S01,S02,S04",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "P003",
+      "url": "/solutions/",
+      "family": "Socle",
+      "title": "Solutions pour vos opérations, ventes et contenus | 100 Pilot",
+      "h1": "Trouvez la tâche que vous voulez simplifier",
+      "description": "Orienter par problème opérationnel et montrer les dépendances. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S02,S04,S15",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "P004",
+      "url": "/realisations/",
+      "family": "Socle",
+      "title": "Réalisations et projets documentés | 100 Pilot",
+      "h1": "Ce qui a été fait, et ce que l’équipe peut utiliser",
+      "description": "Afficher périmètre, rôle, état et preuve de chaque projet retenu. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S05,S15,S17",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "P005",
+      "url": "/etudes/",
+      "family": "Socle",
+      "title": "Études d’automatisation et scénarios métier | 100 Pilot",
+      "h1": "Des projets à tester dans votre métier",
+      "description": "Présenter les projets conçus avec leur statut d’étude. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S02,S20,S22",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "P007",
+      "url": "/secteurs/",
+      "family": "Socle",
+      "title": "Automatisations par secteur d’activité | 100 Pilot",
+      "h1": "Retrouvez les tâches de votre secteur",
+      "description": "Orienter vers les contraintes et données propres à chaque activité. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S02,S04,S15,S20",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "P008",
+      "url": "/integrations/",
+      "family": "Socle",
+      "title": "Connecter vos outils et vos données | 100 Pilot",
+      "h1": "Commencez avec les outils que vous utilisez déjà",
+      "description": "Présenter accès, limites API, synchronisation et gestion des erreurs. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S02,S10,S15",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "P009",
+      "url": "/ressources/",
+      "family": "Socle",
+      "title": "Méthodes et guides pour automatiser utilement | 100 Pilot",
+      "h1": "Préparez votre premier projet d’automatisation",
+      "description": "Distribuer les guides issus des questions réellement rencontrées. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S01,S02,S10",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "P010",
+      "url": "/agence/",
+      "family": "Socle",
+      "title": "100 Pilot, agence d’automatisation pour les PME | 100 Pilot",
+      "h1": "Le pilote automatique, à partir de votre métier.",
+      "description": "Décrire l’équipe, les responsabilités et la manière de travailler. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S01,S03",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "P011",
+      "url": "/methode/",
+      "family": "Socle",
+      "title": "Du cadrage au workflow suivi en production | 100 Pilot",
+      "h1": "Une première tâche. Un résultat à vérifier.",
+      "description": "Expliquer audit, preuve de concept, validation, livraison et exploitation. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S01,S02,S05",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "P012",
+      "url": "/contact/",
+      "family": "Socle",
+      "title": "Parlons de vos tâches à automatiser | 100 Pilot",
+      "h1": "Quelle tâche vous prend trop de temps ?",
+      "description": "Qualifier outil, problème, données et fréquence sans formulaire excessif. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S01",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "P013",
+      "url": "/services/audit-automatisation/",
+      "family": "Service",
+      "title": "Audit et feuille de route d’automatisation | 100 Pilot",
+      "h1": "Choisissez la première tâche à automatiser",
+      "description": "Prioriser les workflows selon fréquence, coût, qualité et accès aux données. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S02,S25",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "P014",
+      "url": "/services/automatisation-odoo/",
+      "family": "Service",
+      "title": "Automatisation et intégration Odoo | 100 Pilot",
+      "h1": "Évitez les recopies entre vos fichiers et Odoo",
+      "description": "Cadrer et intégrer les flux stock, catalogue et CRM autour d’Odoo. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S04,S10",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "P015",
+      "url": "/services/prospection-b2b/",
+      "family": "Service",
+      "title": "Automatisation de la prospection B2B | 100 Pilot",
+      "h1": "Préparez les contacts, puis consacrez-vous aux échanges",
+      "description": "Livrer ciblage, sourcing, qualification et préparation des campagnes. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S07,S02",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "P016",
+      "url": "/services/contenu-produit-seo/",
+      "family": "Service",
+      "title": "Production de contenus produits SEO et GEO | 100 Pilot",
+      "h1": "Donnez aux acheteurs des fiches produits compréhensibles",
+      "description": "Construire un pipeline éditorial à partir de données produits fiables. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S08,S02",
+      "status": null,
+      "workflowIds": [
+        "W19"
+      ]
+    },
+    {
+      "id": "P017",
+      "url": "/services/automatisation-administrative/",
+      "family": "Service",
+      "title": "Automatisation administrative et financière | 100 Pilot",
+      "h1": "Retrouvez les pièces et les échéances à traiter",
+      "description": "Cadrer le traitement des factures, des échéances et des règles de prix. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S02,S03,S13",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "P018",
+      "url": "/services/agents-ia-supervises/",
+      "family": "Service",
+      "title": "Agents IA et workflows supervisés | 100 Pilot",
+      "h1": "Faites préparer une tâche récurrente par un assistant IA",
+      "description": "Concevoir orchestration, droits, validations et traces d’exécution. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S29,S01",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "P019",
+      "url": "/services/portails-metier/",
+      "family": "Service",
+      "title": "Portails métier et tableaux de bord | 100 Pilot",
+      "h1": "Consultez vos dossiers dans un portail de suivi",
+      "description": "Concevoir interfaces par rôle, états métier et accès contrôlés. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S19,S20",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "P020",
+      "url": "/services/documentation-technique/",
+      "family": "Service",
+      "title": "Production assistée de documentation technique | 100 Pilot",
+      "h1": "Passez des documents sources au manuel à relire",
+      "description": "Structurer des sources et produire des documents soumis à relecture expert. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S17",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "P021",
+      "url": "/services/audit-seo-geo/",
+      "family": "Service",
+      "title": "Audit SEO et visibilité dans les moteurs IA | 100 Pilot",
+      "h1": "Vérifiez ce que vos visiteurs comprennent de votre offre",
+      "description": "Auditer indexabilité, contenu utile, preuves et parcours de conversion. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S25,WEB01,WEB06",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "P022",
+      "url": "/services/outils-conversion-b2b/",
+      "family": "Service",
+      "title": "Outils de qualification et de conversion B2B | 100 Pilot",
+      "h1": "Aidez vos prospects à préparer leur demande",
+      "description": "Concevoir calculateurs, quiz et formulaires qui transmettent un besoin clair. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S15",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "P023",
+      "url": "/services/prototype-metier/",
+      "family": "Service",
+      "title": "Prototype métier et preuve de concept | 100 Pilot",
+      "h1": "Essayez le parcours avant de développer l’outil complet",
+      "description": "Tester un scénario sur un périmètre restreint avant industrialisation. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S19,S21,S30",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "P024",
+      "url": "/services/maintenance-automatisations/",
+      "family": "Service",
+      "title": "Maintenance et suivi de vos automatisations | 100 Pilot",
+      "h1": "Gardez un suivi des automatisations après leur lancement",
+      "description": "Définir surveillance, exceptions, reprise et évolutions du workflow. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S05,S02",
+      "status": null,
+      "workflowIds": [
+        "W47"
+      ]
+    },
+    {
+      "id": "P025",
+      "url": "/solutions/consolidation-stocks-fournisseurs/",
+      "family": "Solution",
+      "title": "Consultez les stocks fournisseurs dans une seule liste | 100 Pilot",
+      "h1": "Consultez les stocks fournisseurs dans une seule liste",
+      "description": "Rapprocher SKU et disponibilités, puis traiter les exceptions. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S05,S06,S02",
+      "status": null,
+      "workflowIds": [
+        "W01"
+      ]
+    },
+    {
+      "id": "P026",
+      "url": "/solutions/commandes-fournisseurs/",
+      "family": "Solution",
+      "title": "Préparez vos achats avec le stock et les commandes déjà attendues | 100 Pilot",
+      "h1": "Préparez vos achats avec le stock et les commandes déjà attendues",
+      "description": "Comparer reliquats, ventes et stock cible par modèle et taille. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S02,S03",
+      "status": null,
+      "workflowIds": [
+        "W14"
+      ]
+    },
+    {
+      "id": "P027",
+      "url": "/solutions/disponibilite-fournisseurs/",
+      "family": "Solution",
+      "title": "Sachez de quand datent vos stocks fournisseurs | 100 Pilot",
+      "h1": "Sachez de quand datent vos stocks fournisseurs",
+      "description": "Actualiser flux fournisseurs et alerter sur les données périmées. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S02,S05",
+      "status": null,
+      "workflowIds": [
+        "W10",
+        "W15"
+      ]
+    },
+    {
+      "id": "P028",
+      "url": "/solutions/grille-prix-revendeurs/",
+      "family": "Solution",
+      "title": "Recalculez votre grille de prix revendeurs | 100 Pilot",
+      "h1": "Recalculez votre grille de prix revendeurs",
+      "description": "Combiner coût réel, marge cible et exceptions commerciales. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S02,S13",
+      "status": null,
+      "workflowIds": [
+        "W16"
+      ]
+    },
+    {
+      "id": "P029",
+      "url": "/solutions/listes-prix-odoo/",
+      "family": "Solution",
+      "title": "Faites appliquer vos règles de prix dans Odoo | 100 Pilot",
+      "h1": "Faites appliquer vos règles de prix dans Odoo",
+      "description": "Définir priorités de règles et exceptions sans copier chaque ligne. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S13",
+      "status": null,
+      "workflowIds": [
+        "W13"
+      ]
+    },
+    {
+      "id": "P030",
+      "url": "/solutions/nettoyage-catalogue/",
+      "family": "Solution",
+      "title": "Corrigez les incohérences du catalogue avant l’import | 100 Pilot",
+      "h1": "Corrigez les incohérences du catalogue avant l’import",
+      "description": "Repérer champs incohérents et préparer un import contrôlé. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S09,S04",
+      "status": null,
+      "workflowIds": [
+        "W05"
+      ]
+    },
+    {
+      "id": "P031",
+      "url": "/solutions/variantes-sku/",
+      "family": "Solution",
+      "title": "Rattachez chaque taille et couleur à la bonne référence | 100 Pilot",
+      "h1": "Rattachez chaque taille et couleur à la bonne référence",
+      "description": "Définir convention de références et familles taille/couleur. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S14,S02",
+      "status": null,
+      "workflowIds": [
+        "W09"
+      ]
+    },
+    {
+      "id": "P032",
+      "url": "/solutions/enrichissement-fiches-produits/",
+      "family": "Solution",
+      "title": "Rédigez vos fiches à partir des informations produit | 100 Pilot",
+      "h1": "Rédigez vos fiches à partir des informations produit",
+      "description": "Proposer attributs et descriptions avec comparaison avant validation. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S08,S02",
+      "status": null,
+      "workflowIds": [
+        "W04"
+      ]
+    },
+    {
+      "id": "P033",
+      "url": "/solutions/catalogues-personnalises/",
+      "family": "Solution",
+      "title": "Envoyez un catalogue qui correspond à votre client | 100 Pilot",
+      "h1": "Envoyez un catalogue qui correspond à votre client",
+      "description": "Assembler une sélection produits et prix adaptés à une cible. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S14,S02",
+      "status": null,
+      "workflowIds": [
+        "W12"
+      ]
+    },
+    {
+      "id": "P034",
+      "url": "/solutions/rapprochement-crm/",
+      "family": "Solution",
+      "title": "Retrouvez les mêmes clients dans vos deux logiciels | 100 Pilot",
+      "h1": "Retrouvez les mêmes clients dans vos deux logiciels",
+      "description": "Identifier correspondances certaines, ambiguës et absentes. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S10,S11",
+      "status": null,
+      "workflowIds": [
+        "W06"
+      ]
+    },
+    {
+      "id": "P035",
+      "url": "/solutions/enrichissement-entreprises/",
+      "family": "Solution",
+      "title": "Complétez les fiches entreprises avant le contact | 100 Pilot",
+      "h1": "Complétez les fiches entreprises avant le contact",
+      "description": "Séparer identifiants vérifiables et informations commerciales interprétées. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S10,S02",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "P036",
+      "url": "/solutions/sourcing-leads-b2b/",
+      "family": "Solution",
+      "title": "Une liste de prospects adaptée à votre offre | 100 Pilot",
+      "h1": "Une liste de prospects adaptée à votre offre",
+      "description": "Transformer critères commerciaux en fichiers de prospects utilisables. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S07,S02",
+      "status": null,
+      "workflowIds": [
+        "W02"
+      ]
+    },
+    {
+      "id": "P037",
+      "url": "/solutions/prospection-clubs-sportifs/",
+      "family": "Solution",
+      "title": "Trouvez les clubs auxquels proposer vos équipements | 100 Pilot",
+      "h1": "Trouvez les clubs auxquels proposer vos équipements",
+      "description": "Sourcer clubs, rôles et segments puis préparer un message adapté. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S02",
+      "status": null,
+      "workflowIds": [
+        "W17"
+      ]
+    },
+    {
+      "id": "P038",
+      "url": "/solutions/prospection-textile-entreprises/",
+      "family": "Solution",
+      "title": "Ciblez les entreprises pour votre offre textile | 100 Pilot",
+      "h1": "Ciblez les entreprises pour votre offre textile",
+      "description": "Cibler taille, usage et secteur avant de préparer une proposition. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S02",
+      "status": null,
+      "workflowIds": [
+        "W18"
+      ]
+    },
+    {
+      "id": "P039",
+      "url": "/solutions/infrastructure-email/",
+      "family": "Solution",
+      "title": "Vérifiez vos emails avant de lancer une campagne | 100 Pilot",
+      "h1": "Vérifiez vos emails avant de lancer une campagne",
+      "description": "Configurer boîtes et authentification puis suivre les limites réelles. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S18",
+      "status": null,
+      "workflowIds": [
+        "W27"
+      ]
+    },
+    {
+      "id": "P040",
+      "url": "/solutions/classement-factures/",
+      "family": "Solution",
+      "title": "Classez les factures reçues par email | 100 Pilot",
+      "h1": "Classez les factures reçues par email",
+      "description": "Extraire emails/pièces jointes et router vers le bon dossier comptable. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S02,S03",
+      "status": null,
+      "workflowIds": [
+        "W20"
+      ]
+    },
+    {
+      "id": "P041",
+      "url": "/solutions/relances-impayes/",
+      "family": "Solution",
+      "title": "Préparez les relances des factures en retard | 100 Pilot",
+      "h1": "Préparez les relances des factures en retard",
+      "description": "Combiner échéance, statut paiement, litige et escalade. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S02",
+      "status": null,
+      "workflowIds": [
+        "W21"
+      ]
+    },
+    {
+      "id": "P042",
+      "url": "/solutions/suivi-couverture-credit/",
+      "family": "Solution",
+      "title": "Retrouvez les demandes de couverture crédit en attente | 100 Pilot",
+      "h1": "Retrouvez les demandes de couverture crédit en attente",
+      "description": "Rassembler encours, demandes et statuts dans un suivi contrôlé. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S12",
+      "status": null,
+      "workflowIds": [
+        "W08"
+      ]
+    },
+    {
+      "id": "P043",
+      "url": "/solutions/quiz-qualification/",
+      "family": "Solution",
+      "title": "Orientez vos prospects avec un questionnaire court | 100 Pilot",
+      "h1": "Orientez vos prospects avec un questionnaire court",
+      "description": "Transformer un arbre métier explicite en orientation et formulaire contextuel. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S15",
+      "status": null,
+      "workflowIds": [
+        "W23"
+      ]
+    },
+    {
+      "id": "P044",
+      "url": "/solutions/calculateur-cout/",
+      "family": "Solution",
+      "title": "Expliquez une estimation avec un calculateur | 100 Pilot",
+      "h1": "Expliquez une estimation avec un calculateur",
+      "description": "Exposer hypothèses et estimation avant transmission à l’équipe commerciale. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S15",
+      "status": null,
+      "workflowIds": [
+        "W24"
+      ]
+    },
+    {
+      "id": "P045",
+      "url": "/solutions/formulaires-contextuels/",
+      "family": "Solution",
+      "title": "Retrouvez le contexte derrière une demande de contact | 100 Pilot",
+      "h1": "Retrouvez le contexte derrière une demande de contact",
+      "description": "Relier page, résultat outil et source sans exposer les données personnelles. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S15",
+      "status": null,
+      "workflowIds": [
+        "W25"
+      ]
+    },
+    {
+      "id": "P046",
+      "url": "/solutions/fidelite-crm/",
+      "family": "Solution",
+      "title": "Retrouvez l’historique client pour vos offres de fidélité | 100 Pilot",
+      "h1": "Retrouvez l’historique client pour vos offres de fidélité",
+      "description": "Relier membres et transactions puis préparer des segments utiles. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S20,S22",
+      "status": null,
+      "workflowIds": [
+        "W31"
+      ]
+    },
+    {
+      "id": "P047",
+      "url": "/solutions/portail-suivi-dossiers/",
+      "family": "Solution",
+      "title": "Retrouvez l’état d’un dossier au même endroit | 100 Pilot",
+      "h1": "Retrouvez l’état d’un dossier au même endroit",
+      "description": "Relier étapes métier, documents et accès de chaque rôle. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S19",
+      "status": null,
+      "workflowIds": [
+        "W28"
+      ]
+    },
+    {
+      "id": "P048",
+      "url": "/solutions/pdf-vers-documentation/",
+      "family": "Solution",
+      "title": "Assemblez vos sources techniques en un manuel | 100 Pilot",
+      "h1": "Assemblez vos sources techniques en un manuel",
+      "description": "Extraire sources, structurer sections et tracer la relecture. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S17",
+      "status": null,
+      "workflowIds": [
+        "W26"
+      ]
+    },
+    {
+      "id": "P049",
+      "url": "/solutions/contenu-multilingue/",
+      "family": "Solution",
+      "title": "Suivez les traductions jusqu’aux pages publiées | 100 Pilot",
+      "h1": "Suivez les traductions jusqu’aux pages publiées",
+      "description": "Traduire par lot puis vérifier pages, langues et équivalences. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S27,S26",
+      "status": null,
+      "workflowIds": [
+        "W43"
+      ]
+    },
+    {
+      "id": "P050",
+      "url": "/solutions/publication-produits/",
+      "family": "Solution",
+      "title": "Réunissez ce qu’il faut pour publier vos produits | 100 Pilot",
+      "h1": "Réunissez ce qu’il faut pour publier vos produits",
+      "description": "Séparer préparation, validation, publication et contrôle du résultat visible. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S27",
+      "status": null,
+      "workflowIds": [
+        "W42"
+      ]
+    },
+    {
+      "id": "P051",
+      "url": "/solutions/validation-agents-ia/",
+      "family": "Solution",
+      "title": "Confiez la préparation d’une tâche à un assistant IA | 100 Pilot",
+      "h1": "Confiez la préparation d’une tâche à un assistant IA",
+      "description": "Définir droits, validations et reprise pour les actions externes. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S29,S01",
+      "status": null,
+      "workflowIds": [
+        "W45"
+      ]
+    },
+    {
+      "id": "P052",
+      "url": "/realisations/distribution-b2b-automatisation-odoo/",
+      "family": "Réalisation",
+      "title": "Distribution B2B : préparer les données autour d’Odoo | 100 Pilot",
+      "h1": "Distribution B2B : préparer les données autour d’Odoo",
+      "description": "Relier stocks, catalogue et CRM en précisant chaque état de livraison. Périmètre et preuves documentés, sans résultat extrapolé.",
+      "sourceIds": "S04,S05,S10,S14",
+      "status": "Travaux documentés",
+      "workflowIds": []
+    },
+    {
+      "id": "P053",
+      "url": "/realisations/distribution-b2b-stocks-fournisseurs/",
+      "family": "Réalisation",
+      "title": "Distribution B2B : consulter les stocks fournisseurs | 100 Pilot",
+      "h1": "Distribution B2B : consulter les stocks fournisseurs",
+      "description": "Décrire le moteur observé et le traitement des références inconnues. Périmètre et preuves documentés, sans résultat extrapolé.",
+      "sourceIds": "S05,S06",
+      "status": "Exécutions documentées",
+      "workflowIds": [
+        "W01"
+      ]
+    },
+    {
+      "id": "P054",
+      "url": "/realisations/distribution-b2b-prospection/",
+      "family": "Réalisation",
+      "title": "Distribution B2B : constituer une liste de prospects | 100 Pilot",
+      "h1": "Distribution B2B : constituer une liste de prospects",
+      "description": "Montrer critères, structure du fichier et contrôles de qualification. Périmètre et preuves documentés, sans résultat extrapolé.",
+      "sourceIds": "S07",
+      "status": "Fichier de prospection documenté",
+      "workflowIds": [
+        "W02"
+      ]
+    },
+    {
+      "id": "P055",
+      "url": "/realisations/distribution-b2b-attributs-catalogue/",
+      "family": "Réalisation",
+      "title": "Catalogue B2B : organiser les caractéristiques produits | 100 Pilot",
+      "h1": "Catalogue B2B : organiser les caractéristiques produits",
+      "description": "Décrire mapping et cohérence des attributs plutôt que promettre du SEO. Périmètre et preuves documentés, sans résultat extrapolé.",
+      "sourceIds": "S04,S14",
+      "status": "Travaux de catalogue documentés",
+      "workflowIds": [
+        "W03"
+      ]
+    },
+    {
+      "id": "P056",
+      "url": "/realisations/distribution-b2b-nettoyage-catalogue/",
+      "family": "Réalisation",
+      "title": "Catalogue B2B : relire les corrections avant l’import | 100 Pilot",
+      "h1": "Catalogue B2B : relire les corrections avant l’import",
+      "description": "Montrer règles de nettoyage et sortie consultative. Périmètre et preuves documentés, sans résultat extrapolé.",
+      "sourceIds": "S09,S14",
+      "status": "Fichier de catalogue documenté",
+      "workflowIds": [
+        "W05"
+      ]
+    },
+    {
+      "id": "P057",
+      "url": "/realisations/distribution-b2b-rapprochement-crm/",
+      "family": "Réalisation",
+      "title": "CRM B2B : comparer les contacts de deux bases | 100 Pilot",
+      "h1": "CRM B2B : comparer les contacts de deux bases",
+      "description": "Montrer rapprochement multiclés, provenance et exceptions. Périmètre et preuves documentés, sans résultat extrapolé.",
+      "sourceIds": "S10",
+      "status": "Exports de rapprochement documentés",
+      "workflowIds": [
+        "W06"
+      ]
+    },
+    {
+      "id": "P058",
+      "url": "/realisations/distribution-b2b-import-crm/",
+      "family": "Réalisation",
+      "title": "CRM B2B : préparer les créations et mises à jour | 100 Pilot",
+      "h1": "CRM B2B : préparer les créations et mises à jour",
+      "description": "Expliquer exports et validation client sans revendiquer un import automatique. Périmètre et preuves documentés, sans résultat extrapolé.",
+      "sourceIds": "S11",
+      "status": "Exports d’import documentés",
+      "workflowIds": [
+        "W07"
+      ]
+    },
+    {
+      "id": "P059",
+      "url": "/realisations/recrutement-parcours-commercial/",
+      "family": "Réalisation",
+      "title": "Recrutement : préparer la demande depuis le site | 100 Pilot",
+      "h1": "Recrutement : préparer la demande depuis le site",
+      "description": "Présenter les trois outils et le parcours testé en septembre. Périmètre et preuves documentés, sans résultat extrapolé.",
+      "sourceIds": "S15,S16",
+      "status": "Parcours déployés et testés",
+      "workflowIds": []
+    },
+    {
+      "id": "P060",
+      "url": "/realisations/recrutement-quiz-orientation/",
+      "family": "Réalisation",
+      "title": "Recrutement : orienter le visiteur avec sept questions | 100 Pilot",
+      "h1": "Recrutement : orienter le visiteur avec sept questions",
+      "description": "Décrire logique du quiz, résultat indicatif et handoff vers formulaire. Périmètre et preuves documentés, sans résultat extrapolé.",
+      "sourceIds": "S15",
+      "status": "Quiz déployé et testé",
+      "workflowIds": [
+        "W23"
+      ]
+    },
+    {
+      "id": "P061",
+      "url": "/realisations/recrutement-calculateur/",
+      "family": "Réalisation",
+      "title": "Recrutement : rendre les hypothèses de coût visibles | 100 Pilot",
+      "h1": "Recrutement : rendre les hypothèses de coût visibles",
+      "description": "Présenter estimation, hypothèses et validation commerciale. Périmètre et preuves documentés, sans résultat extrapolé.",
+      "sourceIds": "S15",
+      "status": "Calculateur déployé et testé",
+      "workflowIds": [
+        "W24"
+      ]
+    },
+    {
+      "id": "P062",
+      "url": "/realisations/services-b2b-contenus/",
+      "family": "Réalisation",
+      "title": "Services B2B : expliquer chaque offre sur sa page | 100 Pilot",
+      "h1": "Services B2B : expliquer chaque offre sur sa page",
+      "description": "Présenter architecture commerciale et mesure de l’indexation. Périmètre et preuves documentés, sans résultat extrapolé.",
+      "sourceIds": "S16",
+      "status": "Contenus documentés",
+      "workflowIds": [
+        "W22"
+      ]
+    },
+    {
+      "id": "P063",
+      "url": "/realisations/formation-manuel-technique/",
+      "family": "Réalisation",
+      "title": "Formation : organiser la préparation d’un manuel technique | 100 Pilot",
+      "h1": "Formation : organiser la préparation d’un manuel technique",
+      "description": "Décrire sources, assemblage DOCX et contrôle métier. Périmètre et preuves documentés, sans résultat extrapolé.",
+      "sourceIds": "S17",
+      "status": "Préparation documentée",
+      "workflowIds": [
+        "W26"
+      ]
+    },
+    {
+      "id": "P064",
+      "url": "/realisations/infrastructure-prospection-email/",
+      "family": "Réalisation",
+      "title": "Prospection : vérifier l’infrastructure email | 100 Pilot",
+      "h1": "Prospection : vérifier l’infrastructure email",
+      "description": "Expliquer installation, tests et limites d’exploitation. Périmètre et preuves documentés, sans résultat extrapolé.",
+      "sourceIds": "S18",
+      "status": "Installation et tests documentés",
+      "workflowIds": [
+        "W27"
+      ]
+    },
+    {
+      "id": "P065",
+      "url": "/etudes/diagnostic-portail-suivi/",
+      "family": "Étude",
+      "title": "Diagnostic : retrouver le dossier et préparer le devis | 100 Pilot",
+      "h1": "Diagnostic : retrouver le dossier et préparer le devis",
+      "description": "Décrire rôles, états et périmètre de développement partiel. Périmètre et preuves documentés, sans résultat extrapolé.",
+      "sourceIds": "S19",
+      "status": "Prototype métier",
+      "workflowIds": [
+        "W28",
+        "W29"
+      ]
+    },
+    {
+      "id": "P066",
+      "url": "/realisations/ecommerce-parcours-langues/",
+      "family": "Réalisation",
+      "title": "E-commerce : retrouver le bon parcours selon la langue et le public | 100 Pilot",
+      "h1": "E-commerce : retrouver le bon parcours selon la langue et le public",
+      "description": "Décrire équivalences d’URL et séparation B2B/B2C. Périmètre et preuves documentés, sans résultat extrapolé.",
+      "sourceIds": "S26",
+      "status": "Intervention documentée",
+      "workflowIds": [
+        "W40",
+        "W41"
+      ]
+    },
+    {
+      "id": "P067",
+      "url": "/realisations/ecommerce-publication-supervisee/",
+      "family": "Réalisation",
+      "title": "Projet interne : vérifier une première publication de produit | 100 Pilot",
+      "h1": "Projet interne : vérifier une première publication de produit",
+      "description": "Montrer un canari publié et la vérification du résultat visible. Périmètre et preuves documentés, sans résultat extrapolé.",
+      "sourceIds": "S27",
+      "status": "Projet interne documenté",
+      "workflowIds": [
+        "W42",
+        "W43"
+      ]
+    },
+    {
+      "id": "P068",
+      "url": "/etudes/migration-site-multilingue/",
+      "family": "Étude",
+      "title": "Site multilingue : préparer les pages avant la migration | 100 Pilot",
+      "h1": "Site multilingue : préparer les pages avant la migration",
+      "description": "Présenter tests de staging et plan de bascule. Périmètre et preuves documentés, sans résultat extrapolé.",
+      "sourceIds": "S28",
+      "status": "Préparation de migration",
+      "workflowIds": [
+        "W44"
+      ]
+    },
+    {
+      "id": "P069",
+      "url": "/etudes/marketing-assistants-supervises/",
+      "family": "Étude",
+      "title": "Marketing : tester la préparation d’actions par des assistants | 100 Pilot",
+      "h1": "Marketing : tester la préparation d’actions par des assistants",
+      "description": "Présenter alpha, validations et limites de maturité. Périmètre et preuves documentés, sans résultat extrapolé.",
+      "sourceIds": "S29",
+      "status": "Pilote supervisé",
+      "workflowIds": [
+        "W45"
+      ]
+    },
+    {
+      "id": "P070",
+      "url": "/etudes/sport-textile-automatisation/",
+      "family": "Étude",
+      "title": "Sport et textile : choisir parmi huit tâches à simplifier | 100 Pilot",
+      "h1": "Sport et textile : choisir parmi huit tâches à simplifier",
+      "description": "Présenter huit opportunités avec données, livrables et priorités. Une étude de scénario avec hypothèses explicites.",
+      "sourceIds": "S02,S03",
+      "status": "Scénario proposé",
+      "workflowIds": []
+    },
+    {
+      "id": "P071",
+      "url": "/etudes/sport-textile-commandes-stocks/",
+      "family": "Étude",
+      "title": "Sport et textile : préparer les achats et vérifier la disponibilité | 100 Pilot",
+      "h1": "Sport et textile : préparer les achats et vérifier la disponibilité",
+      "description": "Relier précommandes, reliquats et disponibilité par modèle/taille. Une étude de scénario avec hypothèses explicites.",
+      "sourceIds": "S02,S03",
+      "status": "Scénario proposé",
+      "workflowIds": [
+        "W14",
+        "W15"
+      ]
+    },
+    {
+      "id": "P072",
+      "url": "/etudes/sport-textile-prospection/",
+      "family": "Étude",
+      "title": "Sport et textile : distinguer les clubs des entreprises | 100 Pilot",
+      "h1": "Sport et textile : distinguer les clubs des entreprises",
+      "description": "Distinguer clubs sportifs et entreprises textiles dans le ciblage. Une étude de scénario avec hypothèses explicites.",
+      "sourceIds": "S02",
+      "status": "Scénario proposé",
+      "workflowIds": []
+    },
+    {
+      "id": "P073",
+      "url": "/etudes/sport-textile-factures-frais/",
+      "family": "Étude",
+      "title": "Sport et textile : classer les pièces et préparer les relances | 100 Pilot",
+      "h1": "Sport et textile : classer les pièces et préparer les relances",
+      "description": "Router pièces par société vers Drive avec validation des cas incertains. Une étude de scénario avec hypothèses explicites.",
+      "sourceIds": "S02,S03",
+      "status": "Scénario proposé",
+      "workflowIds": [
+        "W20"
+      ]
+    },
+    {
+      "id": "P074",
+      "url": "/etudes/retail-programme-fidelite/",
+      "family": "Étude",
+      "title": "Retail : retrouver les membres et leurs avantages | 100 Pilot",
+      "h1": "Retail : retrouver les membres et leurs avantages",
+      "description": "Relier membres, achats et vouchers dans un scénario de fidélité. Une étude de scénario avec hypothèses explicites.",
+      "sourceIds": "S22",
+      "status": "Scénario proposé",
+      "workflowIds": [
+        "W35",
+        "W36"
+      ]
+    },
+    {
+      "id": "P075",
+      "url": "/etudes/restauration-commandes-fidelite/",
+      "family": "Étude",
+      "title": "Restauration : essayer un parcours de commande directe | 100 Pilot",
+      "h1": "Restauration : essayer un parcours de commande directe",
+      "description": "Décrire commande, livraison et fidélité dans une maquette. Une étude de scénario avec hypothèses explicites.",
+      "sourceIds": "S20",
+      "status": "Scénario et maquette proposés",
+      "workflowIds": [
+        "W30",
+        "W31",
+        "W32"
+      ]
+    },
+    {
+      "id": "P076",
+      "url": "/etudes/production-tracabilite-lots/",
+      "family": "Étude",
+      "title": "Production : réunir les pièces de lots et les pistes acheteurs | 100 Pilot",
+      "h1": "Production : réunir les pièces de lots et les pistes acheteurs",
+      "description": "Rendre explicites données synthétiques, lots et critères de matching. Une étude de scénario avec hypothèses explicites.",
+      "sourceIds": "S21",
+      "status": "Prototype proposé",
+      "workflowIds": [
+        "W33",
+        "W34"
+      ]
+    },
+    {
+      "id": "P077",
+      "url": "/etudes/missions-disponibilites/",
+      "family": "Étude",
+      "title": "Missions : réunir les disponibilités et les pièces | 100 Pilot",
+      "h1": "Missions : réunir les disponibilités et les pièces",
+      "description": "Décrire disponibilités et contrats comme workflow opérationnel. Une étude de scénario avec hypothèses explicites.",
+      "sourceIds": "S24",
+      "status": "Prototype proposé",
+      "workflowIds": [
+        "W38"
+      ]
+    },
+    {
+      "id": "P078",
+      "url": "/realisations/audit-site-b2b/",
+      "family": "Réalisation",
+      "title": "Site B2B : prioriser les obstacles au parcours commercial | 100 Pilot",
+      "h1": "Site B2B : prioriser les obstacles au parcours commercial",
+      "description": "Distinguer diagnostic technique et recommandations commerciales. Une étude de scénario avec hypothèses explicites.",
+      "sourceIds": "S25",
+      "status": "Audit réalisé",
+      "workflowIds": [
+        "W39"
+      ]
+    },
+    {
+      "id": "P079",
+      "url": "/etudes/ecommerce-catalogue-multilingue/",
+      "family": "Étude",
+      "title": "E-commerce : préparer un catalogue pour plusieurs langues | 100 Pilot",
+      "h1": "E-commerce : préparer un catalogue pour plusieurs langues",
+      "description": "Décrire l’expérience produit et les besoins éditoriaux prévus. Une étude de scénario avec hypothèses explicites.",
+      "sourceIds": "S23",
+      "status": "Scénario proposé",
+      "workflowIds": [
+        "W37"
+      ]
+    },
+    {
+      "id": "P084",
+      "url": "/secteurs/distribution-b2b/",
+      "family": "Secteur",
+      "title": "Automatiser les opérations d’un distributeur B2B | 100 Pilot",
+      "h1": "Distribution B2B : répondre avec les bonnes informations",
+      "description": "Relier stocks, catalogue, tarification et CRM dans un contexte grossiste. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S04,S10,S13",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "P085",
+      "url": "/secteurs/equipement-sport-textile/",
+      "family": "Secteur",
+      "title": "Automatisations pour le sport et le textile B2B | 100 Pilot",
+      "h1": "Sport et textile : suivre les tailles, les achats et les tarifs",
+      "description": "Décrire contraintes tailles, saisonnalité, clubs et revendeurs. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S02,S03",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "P086",
+      "url": "/secteurs/services-b2b/",
+      "family": "Secteur",
+      "title": "Automatisations pour les entreprises de services B2B | 100 Pilot",
+      "h1": "Services B2B : préparer des échanges commerciaux utiles",
+      "description": "Relier offres, qualification et conversion avec mesure. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S15,S25",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "P087",
+      "url": "/secteurs/restauration-retail/",
+      "family": "Secteur",
+      "title": "Automatisations pour la restauration et les réseaux retail | 100 Pilot",
+      "h1": "Restauration et retail : commandes, membres et fidélité",
+      "description": "Décrire données POS, membres, commandes et fidélité. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S20,S22",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "P088",
+      "url": "/secteurs/formation-technique/",
+      "family": "Secteur",
+      "title": "Automatisations pour la formation technique | 100 Pilot",
+      "h1": "Formation technique : préparer les supports depuis vos sources",
+      "description": "Décrire sources longues, versions et relecture expert. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S17",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "P089",
+      "url": "/integrations/odoo/",
+      "family": "Intégration",
+      "title": "Connecter Odoo à vos workflows métier | 100 Pilot",
+      "h1": "Préparez vos données pour Odoo",
+      "description": "Expliquer objets, accès, exports/imports et règles de synchronisation. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S04,S10",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "P090",
+      "url": "/integrations/google-drive/",
+      "family": "Intégration",
+      "title": "Automatiser le classement dans Google Drive | 100 Pilot",
+      "h1": "Rangez vos pièces dans les dossiers Google Drive",
+      "description": "Décrire arborescence, droits, noms de fichier et journal de classement. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S02,S03",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "P091",
+      "url": "/integrations/email/",
+      "family": "Intégration",
+      "title": "Connecter boîtes email et workflows | 100 Pilot",
+      "h1": "Traitez les pièces depuis vos boîtes email",
+      "description": "Distinguer lecture, traitement des pièces et envoi validé. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S02,S18",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "P092",
+      "url": "/integrations/flux-fournisseurs/",
+      "family": "Intégration",
+      "title": "Intégrer les API et fichiers fournisseurs | 100 Pilot",
+      "h1": "Réunissez les fichiers de vos fournisseurs",
+      "description": "Décrire CSV, Excel, API, mappings et disponibilité de la source. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S05,S02",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "P093",
+      "url": "/integrations/wordpress/",
+      "family": "Intégration",
+      "title": "Relier WordPress à vos outils de conversion | 100 Pilot",
+      "h1": "Ajoutez un quiz ou un calculateur à vos pages WordPress",
+      "description": "Expliquer outil interactif, formulaire existant et événements de suivi. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S15",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "P094",
+      "url": "/ressources/prioriser-automatisations/",
+      "family": "Ressource",
+      "title": "Comment prioriser vos premiers workflows | 100 Pilot",
+      "h1": "Quelle tâche automatiser en premier ?",
+      "description": "Proposer une grille fréquence, coût, accès aux données et risque. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S02,S01",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "P095",
+      "url": "/ressources/mesurer-roi-automatisation/",
+      "family": "Ressource",
+      "title": "Mesurer le ROI d’une automatisation sans l’inventer | 100 Pilot",
+      "h1": "Combien de temps le premier test fait-il gagner ?",
+      "description": "Distinguer baseline, estimation et résultat réellement observé. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S02,S05",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "P096",
+      "url": "/ressources/regles-ou-agents-ia/",
+      "family": "Ressource",
+      "title": "Règles métier ou agents IA : comment choisir | 100 Pilot",
+      "h1": "La tâche demande-t-elle de l’IA ?",
+      "description": "Expliquer règles déterministes, extraction et décisions incertaines. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S10,S29",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "P097",
+      "url": "/ressources/validation-humaine/",
+      "family": "Ressource",
+      "title": "Concevoir une validation humaine utile | 100 Pilot",
+      "h1": "Que faut-il vraiment faire valider ?",
+      "description": "Décrire seuils, exceptions, comparaison et responsabilité. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S08,S03,S17",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "P098",
+      "url": "/ressources/preparer-integration-odoo/",
+      "family": "Ressource",
+      "title": "Préparer une intégration Odoo sans import risqué | 100 Pilot",
+      "h1": "Quels exemples préparer avant un projet Odoo ?",
+      "description": "Lister accès, identifiants, échantillon, test et reprise. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S10,S11",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "P099",
+      "url": "/ressources/factures-multisocietes/",
+      "family": "Ressource",
+      "title": "Classer des factures de plusieurs sociétés | 100 Pilot",
+      "h1": "Comment classer les factures de plusieurs sociétés ?",
+      "description": "Montrer matrice sociétés/dossiers, incertitudes et contrôle des doublons. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S02,S03",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "P100",
+      "url": "/ressources/qualite-fiches-produits-ia/",
+      "family": "Ressource",
+      "title": "Contrôler la qualité de fiches produits générées par IA | 100 Pilot",
+      "h1": "Que relire dans une fiche produit préparée par IA ?",
+      "description": "Vérifier attributs réels, originalité, lisibilité et cohérence visible. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S08,S02,WEB02,WEB04",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "P101",
+      "url": "/ressources/rapprochement-crm-siret/",
+      "family": "Ressource",
+      "title": "Rapprocher deux CRM avec des identifiants fiables | 100 Pilot",
+      "h1": "Comment comparer deux bases de contacts ?",
+      "description": "Expliquer normalisation, multiclés et file d’exceptions. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S10",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "P102",
+      "url": "/ressources/prototype-vers-production/",
+      "family": "Ressource",
+      "title": "Passer d’un prototype à un workflow exploitable | 100 Pilot",
+      "h1": "Le prototype est-il prêt pour un usage réel ?",
+      "description": "Lister intégration réelle, droits, tests, mesure et exploitation. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "S19,S29,S30",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "P103",
+      "url": "/ressources/case-study-seo-geo/",
+      "family": "Ressource",
+      "title": "Construire un case study utile au SEO et aux moteurs IA | 100 Pilot",
+      "h1": "Comment écrire un cas utile au futur client ?",
+      "description": "Expliquer contexte, preuve, statut et réponse directe sans promettre une citation. 100 Pilot : cadrage, contrôles et mise en œuvre adaptée.",
+      "sourceIds": "WEB01,WEB02,WEB06",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "P104",
+      "url": "/solutions/marges-circuits-vente/",
+      "family": "Solution",
+      "title": "Comparez vos marges selon le circuit de vente | 100 Pilot",
+      "h1": "Comparez vos marges selon le circuit de vente",
+      "description": "Un même produit peut laisser une marge différente selon les frais de transport ou le circuit retenu. Nous réunissons les coûts que vous choisissez dans un…",
+      "sourceIds": "S14",
+      "status": null,
+      "workflowIds": [
+        "W11"
+      ]
+    },
+    {
+      "id": "P105",
+      "url": "/solutions/preparation-import-crm/",
+      "family": "Solution",
+      "title": "Préparez les contacts à importer dans votre CRM | 100 Pilot",
+      "h1": "Préparez les contacts à importer dans votre CRM",
+      "description": "La liste issue d’un salon contient des nouveaux contacts et des entreprises déjà dans votre CRM. Nous préparons les actions de création ou de mise à jour, avec…",
+      "sourceIds": "S11",
+      "status": null,
+      "workflowIds": [
+        "W07"
+      ]
+    },
+    {
+      "id": "P106",
+      "url": "/solutions/commandes-directes/",
+      "family": "Solution",
+      "title": "Proposez un parcours de commande directe | 100 Pilot",
+      "h1": "Proposez un parcours de commande directe",
+      "description": "Votre client souhaite commander directement auprès de vous. Nous définissons les choix et informations nécessaires, puis les étapes pour que votre équipe puisse…",
+      "sourceIds": "S20",
+      "status": null,
+      "workflowIds": [
+        "W30"
+      ]
+    },
+    {
+      "id": "P107",
+      "url": "/solutions/assistant-commande-bilingue/",
+      "family": "Solution",
+      "title": "Répondez aux questions de commande dans deux langues | 100 Pilot",
+      "h1": "Répondez aux questions de commande dans deux langues",
+      "description": "Votre équipe répond souvent aux mêmes questions avant une commande. Un assistant bilingue peut préparer des réponses depuis vos informations validées et orienter…",
+      "sourceIds": "S20",
+      "status": null,
+      "workflowIds": [
+        "W32"
+      ]
+    },
+    {
+      "id": "P108",
+      "url": "/solutions/tracabilite-lots/",
+      "family": "Solution",
+      "title": "Retrouvez l’historique et les pièces d’un lot | 100 Pilot",
+      "h1": "Retrouvez l’historique et les pièces d’un lot",
+      "description": "Pour une question sur un lot, votre équipe cherche ses pièces dans différents fichiers. Nous cadrons une fiche qui les réunit et montre les informations encore…",
+      "sourceIds": "S21",
+      "status": null,
+      "workflowIds": [
+        "W33"
+      ]
+    },
+    {
+      "id": "P109",
+      "url": "/solutions/rapprochement-lots-acheteurs/",
+      "family": "Solution",
+      "title": "Comparez les lots disponibles aux besoins acheteurs | 100 Pilot",
+      "h1": "Comparez les lots disponibles aux besoins acheteurs",
+      "description": "Caractéristiques d’un lot d’un côté, critères acheteurs de l’autre : la comparaison est répétitive. Nous pouvons préparer les correspondances possibles et les…",
+      "sourceIds": "S21",
+      "status": null,
+      "workflowIds": [
+        "W34"
+      ]
+    },
+    {
+      "id": "P110",
+      "url": "/solutions/suivi-missions-disponibilites/",
+      "family": "Solution",
+      "title": "Réunissez les disponibilités et les dossiers de mission | 100 Pilot",
+      "h1": "Réunissez les disponibilités et les dossiers de mission",
+      "description": "Avant une affectation, il faut croiser les disponibilités et retrouver les pièces du dossier. Nous réunissons ces informations dans un suivi à faire valider par…",
+      "sourceIds": "S24",
+      "status": null,
+      "workflowIds": [
+        "W38"
+      ]
+    },
+    {
+      "id": "P111",
+      "url": "/etudes/hotellerie-suivi-operations/",
+      "family": "Étude",
+      "title": "Prototype interne : suivre réservations et préparation des chambres | 100 Pilot",
+      "h1": "Prototype interne : suivre réservations et préparation des chambres",
+      "description": "Le projet interne contient des écrans de démonstration de réservations, chambres et tâches. Ils permettent d’examiner le passage d’informations entre équipes…",
+      "sourceIds": "S30",
+      "status": "Prototype interne",
+      "workflowIds": [
+        "W46"
+      ]
+    },
+    {
+      "id": "B000",
+      "url": "/pour-votre-equipe/",
+      "family": "Socle",
+      "title": "Automatisation selon votre rôle en entreprise | 100 Pilot",
+      "h1": "Quel travail voulez-vous confier au pilote automatique ?",
+      "description": "Dirigeant, responsable commercial ou opérations : découvrez les tâches que 100 Pilot peut automatiser à partir du quotidien de votre équipe.",
+      "sourceIds": "",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "B001",
+      "url": "/pour-votre-equipe/dirigeant-pme/",
+      "family": "Persona",
+      "title": "Automatisation pour les dirigeants de PME | 100 Pilot",
+      "h1": "Votre équipe a besoin de temps pour faire son métier.",
+      "description": "Factures, échéances et dossiers : automatisez une première tâche répétitive avec 100 Pilot et gardez la main sur les décisions de votre PME.",
+      "sourceIds": "",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "B002",
+      "url": "/pour-votre-equipe/responsable-commercial/",
+      "family": "Persona",
+      "title": "Automatisation pour les équipes commerciales B2B | 100 Pilot",
+      "h1": "Vos commerciaux ont mieux à faire que chercher chaque contact.",
+      "description": "Préparez les listes de prospects et les fiches CRM avec 100 Pilot. Vos commerciaux disposent du contexte nécessaire pour leurs premiers échanges.",
+      "sourceIds": "",
+      "status": null,
+      "workflowIds": []
+    },
+    {
+      "id": "B003",
+      "url": "/pour-votre-equipe/responsable-operations/",
+      "family": "Persona",
+      "title": "Automatisation des stocks et opérations B2B | 100 Pilot",
+      "h1": "Une disponibilité à retrouver, plusieurs fichiers à ouvrir.",
+      "description": "Réunissez les stocks fournisseurs et préparez les données Odoo avec 100 Pilot. Retrouvez les disponibilités et les références à vérifier au même endroit.",
+      "sourceIds": "",
+      "status": null,
+      "workflowIds": []
+    }
+  ]
+}

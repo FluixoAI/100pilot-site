@@ -1,0 +1,506 @@
+{
+  "workflows": 47,
+  "covered": 47,
+  "pages": 110,
+  "mergedPages": [
+    "P006",
+    "P080",
+    "P081",
+    "P082",
+    "P083"
+  ],
+  "rows": [
+    {
+      "workflow": "W01",
+      "sourceStatus": "Exécutions observées 24/09",
+      "pageIds": [
+        "P025",
+        "P053"
+      ],
+      "commercialScope": "Mission définie à cadrer avec données et critères de réception",
+      "publicTitle": "Consultez les stocks fournisseurs dans une seule liste",
+      "qualification": "Votre équipe valide les correspondances inconnues et les règles de disponibilité avant toute écriture dans l’outil de gestion."
+    },
+    {
+      "workflow": "W02",
+      "sourceStatus": "Livrables documentés",
+      "pageIds": [
+        "P036",
+        "P054"
+      ],
+      "commercialScope": "Mission définie à cadrer avec données et critères de réception",
+      "publicTitle": "Une liste de prospects adaptée à votre offre",
+      "qualification": "Vous gardez le choix des cibles, du message et des envois. Une information de contact incertaine reste à vérifier."
+    },
+    {
+      "workflow": "W03",
+      "sourceStatus": "Travaux précédents cités",
+      "pageIds": [
+        "P055"
+      ],
+      "commercialScope": "Mission définie à cadrer avec données et critères de réception",
+      "publicTitle": "Retrouvez les caractéristiques produits dans les bons champs",
+      "qualification": "Les caractéristiques absentes des sources restent à compléter. Votre équipe valide le fichier avant import."
+    },
+    {
+      "workflow": "W04",
+      "sourceStatus": "Maquette et périmètre documentés",
+      "pageIds": [
+        "P032"
+      ],
+      "commercialScope": "Mission définie à cadrer avec données et critères de réception",
+      "publicTitle": "Rédigez vos fiches à partir des informations produit",
+      "qualification": "Vous validez les caractéristiques et la publication. La visibilité dans les moteurs de recherche se mesure après mise en ligne."
+    },
+    {
+      "workflow": "W05",
+      "sourceStatus": "Livrable présent ; travaux cités",
+      "pageIds": [
+        "P030",
+        "P056"
+      ],
+      "commercialScope": "Mission définie à cadrer avec données et critères de réception",
+      "publicTitle": "Corrigez les incohérences du catalogue avant l’import",
+      "qualification": "Vous approuvez les règles et les corrections ambiguës. Le fichier original est conservé."
+    },
+    {
+      "workflow": "W06",
+      "sourceStatus": "Exports et périmètre documentés",
+      "pageIds": [
+        "P034",
+        "P057"
+      ],
+      "commercialScope": "Mission définie à cadrer avec données et critères de réception",
+      "publicTitle": "Retrouvez les mêmes clients dans vos deux logiciels",
+      "qualification": "Votre équipe valide les fusions et les mises à jour. Une ressemblance de nom ne déclenche pas seule une modification."
+    },
+    {
+      "workflow": "W07",
+      "sourceStatus": "Exports documentés",
+      "pageIds": [
+        "P058",
+        "P105"
+      ],
+      "commercialScope": "Mission définie à cadrer avec données et critères de réception",
+      "publicTitle": "Préparez les contacts à importer dans votre CRM",
+      "qualification": "L’import est lancé après validation du fichier et d’un test."
+    },
+    {
+      "workflow": "W08",
+      "sourceStatus": "Présentation ; activation inconnue",
+      "pageIds": [
+        "P042"
+      ],
+      "commercialScope": "Cadrage et pilote sous conditions d’accès",
+      "publicTitle": "Retrouvez les demandes de couverture crédit en attente",
+      "qualification": "Le responsable confirme les montants, réponses et décisions. Ce service commence par une étude de faisabilité des accès."
+    },
+    {
+      "workflow": "W09",
+      "sourceStatus": "Extension proposée",
+      "pageIds": [
+        "P031"
+      ],
+      "commercialScope": "Mission définie à cadrer avec données et critères de réception",
+      "publicTitle": "Rattachez chaque taille et couleur à la bonne référence",
+      "qualification": "Vous validez la structure et les nouveaux produits avant toute création."
+    },
+    {
+      "workflow": "W10",
+      "sourceStatus": "Extension proposée",
+      "pageIds": [
+        "P027"
+      ],
+      "commercialScope": "Mission définie à cadrer avec données et critères de réception",
+      "publicTitle": "Sachez de quand datent vos stocks fournisseurs",
+      "qualification": "Votre équipe définit ce qui peut être affiché ou confirmé lorsqu’une source manque."
+    },
+    {
+      "workflow": "W11",
+      "sourceStatus": "Extension proposée",
+      "pageIds": [
+        "P104"
+      ],
+      "commercialScope": "Mission définie à cadrer avec données et critères de réception",
+      "publicTitle": "Comparez vos marges selon le circuit de vente",
+      "qualification": "Votre responsable valide la méthode et les coûts. Le tableau ne remplace pas une validation comptable."
+    },
+    {
+      "workflow": "W12",
+      "sourceStatus": "Extension proposée",
+      "pageIds": [
+        "P033"
+      ],
+      "commercialScope": "Mission définie à cadrer avec données et critères de réception",
+      "publicTitle": "Envoyez un catalogue qui correspond à votre client",
+      "qualification": "Votre équipe valide les produits, les prix et la diffusion du document."
+    },
+    {
+      "workflow": "W13",
+      "sourceStatus": "Architecture proposée",
+      "pageIds": [
+        "P029"
+      ],
+      "commercialScope": "Mission définie à cadrer avec données et critères de réception",
+      "publicTitle": "Faites appliquer vos règles de prix dans Odoo",
+      "qualification": "Votre responsable commercial valide les prix et les exceptions avant activation."
+    },
+    {
+      "workflow": "W14",
+      "sourceStatus": "Proposé",
+      "pageIds": [
+        "P026",
+        "P071"
+      ],
+      "commercialScope": "Mission définie à cadrer avec données et critères de réception",
+      "publicTitle": "Préparez vos achats avec le stock et les commandes déjà attendues",
+      "qualification": "Chaque commande reste approuvée par votre acheteur. Les suggestions dépendent de la qualité et de la fraîcheur des données."
+    },
+    {
+      "workflow": "W15",
+      "sourceStatus": "Proposé",
+      "pageIds": [
+        "P027",
+        "P071"
+      ],
+      "commercialScope": "Mission définie à cadrer avec données et critères de réception",
+      "publicTitle": "Vérifiez les disponibilités avant de confirmer un achat",
+      "qualification": "L’acheteur confirme les délais et les commandes. Un stock fournisseur affiché ne vaut pas une réservation."
+    },
+    {
+      "workflow": "W16",
+      "sourceStatus": "Proposé",
+      "pageIds": [
+        "P028"
+      ],
+      "commercialScope": "Mission définie à cadrer avec données et critères de réception",
+      "publicTitle": "Recalculez votre grille de prix revendeurs",
+      "qualification": "Vous choisissez les règles et validez la grille. Nous n’inventons pas les coûts manquants."
+    },
+    {
+      "workflow": "W17",
+      "sourceStatus": "Proposé",
+      "pageIds": [
+        "P037"
+      ],
+      "commercialScope": "Mission définie à cadrer avec données et critères de réception",
+      "publicTitle": "Trouvez les clubs auxquels proposer vos équipements",
+      "qualification": "Votre équipe choisit les destinataires et approuve les envois. Une liste de clubs n’est pas un résultat de vente."
+    },
+    {
+      "workflow": "W18",
+      "sourceStatus": "Proposé",
+      "pageIds": [
+        "P038"
+      ],
+      "commercialScope": "Mission définie à cadrer avec données et critères de réception",
+      "publicTitle": "Ciblez les entreprises pour votre offre textile",
+      "qualification": "Le commercial vérifie le besoin et décide du message. Aucun besoin d’achat n’est supposé acquis."
+    },
+    {
+      "workflow": "W19",
+      "sourceStatus": "Proposé",
+      "pageIds": [
+        "P016"
+      ],
+      "commercialScope": "Mission définie à cadrer avec données et critères de réception",
+      "publicTitle": "Expliquez les différences entre vos produits",
+      "qualification": "Vous validez les informations et les publications. Aucun classement ou citation par un moteur IA n’est garanti."
+    },
+    {
+      "workflow": "W20",
+      "sourceStatus": "Proposé",
+      "pageIds": [
+        "P040",
+        "P073"
+      ],
+      "commercialScope": "Mission définie à cadrer avec données et critères de réception",
+      "publicTitle": "Classez les factures reçues par email",
+      "qualification": "Votre équipe garde la validation comptable et les pièces incertaines. Le classement ne déclenche pas de paiement."
+    },
+    {
+      "workflow": "W21",
+      "sourceStatus": "Proposé",
+      "pageIds": [
+        "P041"
+      ],
+      "commercialScope": "Mission définie à cadrer avec données et critères de réception",
+      "publicTitle": "Préparez les relances des factures en retard",
+      "qualification": "Vous approuvez la séquence et les exceptions. Une facture payée ou contestée ne doit pas recevoir une relance inappropriée."
+    },
+    {
+      "workflow": "W22",
+      "sourceStatus": "Livrables documentés",
+      "pageIds": [
+        "P062"
+      ],
+      "commercialScope": "Mission définie à cadrer avec données et critères de réception",
+      "publicTitle": "Aidez le visiteur à choisir votre prestation",
+      "qualification": "Vous validez les engagements commerciaux et les contenus avant publication."
+    },
+    {
+      "workflow": "W23",
+      "sourceStatus": "Déployé et testé 12/09",
+      "pageIds": [
+        "P043",
+        "P060"
+      ],
+      "commercialScope": "Mission définie à cadrer avec données et critères de réception",
+      "publicTitle": "Orientez vos prospects avec un questionnaire court",
+      "qualification": "Votre équipe confirme la recommandation. Le quiz fournit une orientation, pas un engagement commercial automatique."
+    },
+    {
+      "workflow": "W24",
+      "sourceStatus": "Déployé et testé 12/09",
+      "pageIds": [
+        "P044",
+        "P061"
+      ],
+      "commercialScope": "Mission définie à cadrer avec données et critères de réception",
+      "publicTitle": "Expliquez une estimation avec un calculateur",
+      "qualification": "Vous validez les formules et les hypothèses. Une estimation n’est pas un devis."
+    },
+    {
+      "workflow": "W25",
+      "sourceStatus": "Déployé et testé 12/09",
+      "pageIds": [
+        "P045"
+      ],
+      "commercialScope": "Mission définie à cadrer avec données et critères de réception",
+      "publicTitle": "Retrouvez le contexte derrière une demande de contact",
+      "qualification": "Le visiteur choisit les informations qu’il transmet. La mesure des parcours doit éviter les données personnelles dans ses libellés."
+    },
+    {
+      "workflow": "W26",
+      "sourceStatus": "B407 livré ; autres états variables",
+      "pageIds": [
+        "P048",
+        "P063"
+      ],
+      "commercialScope": "Mission définie à cadrer avec données et critères de réception",
+      "publicTitle": "Assemblez vos sources techniques en un manuel",
+      "qualification": "Vos experts valident les informations techniques. La production du document ne constitue pas une certification."
+    },
+    {
+      "workflow": "W27",
+      "sourceStatus": "Installation/test documentés",
+      "pageIds": [
+        "P039",
+        "P064"
+      ],
+      "commercialScope": "Mission définie à cadrer avec données et critères de réception",
+      "publicTitle": "Vérifiez vos emails avant de lancer une campagne",
+      "qualification": "Vous validez les campagnes et destinataires. Les tests ne garantissent pas la réception de tous les messages futurs."
+    },
+    {
+      "workflow": "W28",
+      "sourceStatus": "Développement partiel",
+      "pageIds": [
+        "P047",
+        "P065"
+      ],
+      "commercialScope": "Cadrage et pilote sous conditions d’accès",
+      "publicTitle": "Retrouvez l’état d’un dossier au même endroit",
+      "qualification": "Vous validez les informations visibles pour chaque rôle. Un premier prototype sert à confirmer le parcours avant exploitation."
+    },
+    {
+      "workflow": "W29",
+      "sourceStatus": "Code partiel documenté",
+      "pageIds": [
+        "P065"
+      ],
+      "commercialScope": "Cadrage et pilote sous conditions d’accès",
+      "publicTitle": "Suivez le devis et prévenez le client au bon moment",
+      "qualification": "Votre équipe valide prix et devis. Paiement et livraison email sont des parcours à vérifier séparément."
+    },
+    {
+      "workflow": "W30",
+      "sourceStatus": "Maquette/proposition",
+      "pageIds": [
+        "P075",
+        "P106"
+      ],
+      "commercialScope": "Cadrage et pilote sous conditions d’accès",
+      "publicTitle": "Proposez un parcours de commande directe",
+      "qualification": "Les intégrations et le traitement réel des commandes doivent être vérifiés avant mise en service."
+    },
+    {
+      "workflow": "W31",
+      "sourceStatus": "Proposé",
+      "pageIds": [
+        "P046",
+        "P075"
+      ],
+      "commercialScope": "Cadrage et pilote sous conditions d’accès",
+      "publicTitle": "Retrouvez l’historique client pour vos offres de fidélité",
+      "qualification": "Vous validez les offres et destinataires. Les effets sur le réachat se mesurent après exploitation."
+    },
+    {
+      "workflow": "W32",
+      "sourceStatus": "Proposé",
+      "pageIds": [
+        "P075",
+        "P107"
+      ],
+      "commercialScope": "Cadrage et pilote sous conditions d’accès",
+      "publicTitle": "Répondez aux questions de commande dans deux langues",
+      "qualification": "Les réponses reposent sur des informations validées. Les cas sensibles ou ambigus sont transmis à votre équipe."
+    },
+    {
+      "workflow": "W33",
+      "sourceStatus": "Prototype proposé",
+      "pageIds": [
+        "P076",
+        "P108"
+      ],
+      "commercialScope": "Cadrage et pilote sous conditions d’accès",
+      "publicTitle": "Retrouvez l’historique et les pièces d’un lot",
+      "qualification": "Vos responsables confirment les données de qualité. Le prototype ne constitue pas une certification."
+    },
+    {
+      "workflow": "W34",
+      "sourceStatus": "Prototype proposé",
+      "pageIds": [
+        "P076",
+        "P109"
+      ],
+      "commercialScope": "Cadrage et pilote sous conditions d’accès",
+      "publicTitle": "Comparez les lots disponibles aux besoins acheteurs",
+      "qualification": "Votre équipe confirme les informations et les conditions. Aucune transaction n’est conclue automatiquement."
+    },
+    {
+      "workflow": "W35",
+      "sourceStatus": "Proposé",
+      "pageIds": [
+        "P074"
+      ],
+      "commercialScope": "Cadrage et pilote sous conditions d’accès",
+      "publicTitle": "Retrouvez un membre et ses avantages au comptoir",
+      "qualification": "Vous validez les règles et l’utilisation des données clients avant une campagne."
+    },
+    {
+      "workflow": "W36",
+      "sourceStatus": "Proposé",
+      "pageIds": [
+        "P074"
+      ],
+      "commercialScope": "Cadrage et pilote sous conditions d’accès",
+      "publicTitle": "Sachez quelles offres de fidélité ont été utilisées",
+      "qualification": "Vous validez les groupes et contacts. Un revenu incrémental demande une méthode de mesure adaptée."
+    },
+    {
+      "workflow": "W37",
+      "sourceStatus": "Proposé",
+      "pageIds": [
+        "P079"
+      ],
+      "commercialScope": "Cadrage et pilote sous conditions d’accès",
+      "publicTitle": "Préparez votre catalogue pour une autre langue",
+      "qualification": "Votre équipe valide les informations et les contenus. Les effets commerciaux se mesurent après lancement."
+    },
+    {
+      "workflow": "W38",
+      "sourceStatus": "MVP proposé",
+      "pageIds": [
+        "P077",
+        "P110"
+      ],
+      "commercialScope": "Cadrage et pilote sous conditions d’accès",
+      "publicTitle": "Réunissez les disponibilités et les dossiers de mission",
+      "qualification": "Le responsable garde le choix et la validation des affectations. Le scénario ne prend aucune décision médicale."
+    },
+    {
+      "workflow": "W39",
+      "sourceStatus": "Audit réalisé",
+      "pageIds": [
+        "P078"
+      ],
+      "commercialScope": "Mission définie à cadrer avec données et critères de réception",
+      "publicTitle": "Repérez les obstacles entre votre offre et le contact",
+      "qualification": "Vous décidez des corrections à réaliser. Un audit décrit des observations et recommandations, pas des améliorations déjà livrées."
+    },
+    {
+      "workflow": "W40",
+      "sourceStatus": "Intervention documentée",
+      "pageIds": [
+        "P066"
+      ],
+      "commercialScope": "Mission définie à cadrer avec données et critères de réception",
+      "publicTitle": "Gardez les visiteurs sur la bonne page dans chaque langue",
+      "qualification": "Les changements sont vérifiés sur les pages réellement servies avant confirmation du résultat."
+    },
+    {
+      "workflow": "W41",
+      "sourceStatus": "Intervention documentée",
+      "pageIds": [
+        "P066"
+      ],
+      "commercialScope": "Mission définie à cadrer avec données et critères de réception",
+      "publicTitle": "Orientez particuliers et professionnels vers le bon contact",
+      "qualification": "Vous validez les messages et parcours. Une modification de bouton se vérifie jusqu’à l’action attendue."
+    },
+    {
+      "workflow": "W42",
+      "sourceStatus": "Canari publié documenté",
+      "pageIds": [
+        "P050",
+        "P067"
+      ],
+      "commercialScope": "Mission définie à cadrer avec données et critères de réception",
+      "publicTitle": "Réunissez ce qu’il faut pour publier vos produits",
+      "qualification": "Votre équipe approuve les publications. Le succès sur un premier produit ne suffit pas à valider tous les produits ou sites."
+    },
+    {
+      "workflow": "W43",
+      "sourceStatus": "Travaux du portefeuille",
+      "pageIds": [
+        "P049",
+        "P067"
+      ],
+      "commercialScope": "Mission définie à cadrer avec données et critères de réception",
+      "publicTitle": "Suivez les traductions jusqu’aux pages publiées",
+      "qualification": "Votre équipe valide les contenus. Les informations locales et techniques nécessitent une relecture appropriée."
+    },
+    {
+      "workflow": "W44",
+      "sourceStatus": "Staging testé",
+      "pageIds": [
+        "P068"
+      ],
+      "commercialScope": "Mission définie à cadrer avec données et critères de réception",
+      "publicTitle": "Préparez les pages à conserver pendant une migration",
+      "qualification": "La préparation ne prouve pas que la bascule finale a été réalisée. Vous validez le moment du changement."
+    },
+    {
+      "workflow": "W45",
+      "sourceStatus": "Alpha supervisée",
+      "pageIds": [
+        "P051",
+        "P069"
+      ],
+      "commercialScope": "Cadrage et pilote sous conditions d’accès",
+      "publicTitle": "Confiez la préparation d’une tâche à un assistant IA",
+      "qualification": "Les actions externes sensibles passent par les validations prévues. Le service commence par un pilote sur un périmètre limité."
+    },
+    {
+      "workflow": "W46",
+      "sourceStatus": "Prototype code",
+      "pageIds": [
+        "P111"
+      ],
+      "commercialScope": "Cadrage et pilote sous conditions d’accès",
+      "publicTitle": "Testez un suivi commun des réservations et des chambres",
+      "qualification": "Ce scénario repose sur un prototype interne. Aucun hôtel client ni exploitation réelle n’est présenté comme acquis."
+    },
+    {
+      "workflow": "W47",
+      "sourceStatus": "Blueprint",
+      "pageIds": [
+        "P024"
+      ],
+      "commercialScope": "Mission définie à cadrer avec données et critères de réception",
+      "publicTitle": "Sachez quand une automatisation a besoin d’attention",
+      "qualification": "Les modalités de suivi et les délais de prise en charge sont convenus selon le périmètre."
+    }
+  ]
+}

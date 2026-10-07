@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-02",
+  "desktop": {
+    "viewport": [
+      1280,
+      900
+    ],
+    "servicesLayout": true,
+    "stockBenefitsAndOutput": true,
+    "livrableAnchor": true,
+    "contactClickProducesBrief": true
+  },
+  "mobile": {
+    "viewport": [
+      390,
+      844
+    ],
+    "servicesNoHorizontalOverflow": true,
+    "menuOpenEscapeClose": true,
+    "serviceAnchor": true,
+    "contactKeyboardProducesBrief": true
+  },
+  "cases": {
+    "proposedPrototypeClearlyLabelled": true,
+    "illustrativeExampleLabelled": true,
+    "secondaryTaskAndHumanReviewVisible": true
+  },
+  "contact": {
+    "recipient": "lucas.lenoir@100pilot.ai",
+    "subjectPrefill": true,
+    "preparedBodyVerified": true,
+    "delivery": "User opens email application; no automatic server delivery",
+    "emailSent": false
+  },
+  "publicPreview": {
+    "origin": "https://learn-berlin-pee-contains.trycloudflare.com",
+    "benefitsAndOutputVisible": true,
+    "checkedRoutes": [
+      "/",
+      "/services/",
+      "/solutions/commandes-directes/",
+      "/etudes/production-tracabilite-lots/"
+    ],
+    "httpStatus": 200,
+    "noindex": true
+  },
+  "screenshots": [
+    "screenshots/services-v3-desktop.png",
+    "screenshots/services-v3-mobile.png",
+    "screenshots/contact-v3-mobile.png",
+    "screenshots/solution-v3-benefits-public.png"
+  ]
+}
