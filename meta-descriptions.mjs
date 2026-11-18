@@ -4,7 +4,7 @@
 // is missing here, if a text is outside 120-155 characters or if two pages share a description.
 export const descriptions={
  // Pages socles
- P001:'Stocks à réunir, factures à classer, contacts à préparer : nous choisissons avec vous une première tâche à automatiser, puis la construisons et la suivons.',
+ P001:'Stocks à réunir, factures à classer, contacts à préparer : nous choisissons avec vous une première tâche à automatiser et construisons la solution.',
  P002:'Stocks et Odoo, prospection, catalogue, administratif, portails : nos prestations d’automatisation, le résultat attendu et ce qui reste à décider.',
  P003:'Stocks, prix, catalogue, prospection, documents, portails : partez d’une tâche que votre équipe refait souvent et voyez le résultat que nous préparons.',
  P004:'Stocks, contacts, parcours de site : des cas anonymisés qui décrivent le travail réalisé, ses résultats et les limites de chaque intervention.',

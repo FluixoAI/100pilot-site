@@ -20,7 +20,7 @@
       "url": "/",
       "status": 200,
       "mainWords": 764,
-      "descriptionLength": 155
+      "descriptionLength": 147
     },
     {
       "url": "/services/",
@@ -685,7 +685,7 @@
     {
       "url": "/confidentialite/",
       "status": 200,
-      "mainWords": 407,
+      "mainWords": 442,
       "descriptionLength": 141
     }
   ]
