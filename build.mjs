@@ -12,11 +12,16 @@ import {makePages,profiles,cases,coverage,groups,mergedPages} from './page-catal
 import {catalogueHome,catalogueServices,catalogueHub} from './catalogue-ui.mjs';
 import {brandLogo,personaPages,personaContent,personaContext,workflowPreview} from './brand-system.mjs';
 import {overviewScenes} from './task-visuals.mjs';
+import {descriptions} from './meta-descriptions.mjs';
+import {legalPages,legalContent} from './legal-pages.mjs';
 const content=publicCopy(sourceContent);
 const root=path.dirname(fileURLToPath(import.meta.url));const dist=path.join(root,'dist');
 const config=JSON.parse(await fs.readFile(path.join(root,'site.config.json'),'utf8'));
+// Date of the last content change: sitemap lastmod and manifest date. Set it by hand when pages change,
+// so that rebuilding the same content gives the same output.
+const contentDate=config.contentUpdated;if(!/^\d{4}-\d{2}-\d{2}$/.test(contentDate||''))throw Error('site.config.json: contentUpdated must be YYYY-MM-DD');
 const inventory=JSON.parse(await fs.readFile(path.join(root,'source-inventory.json'),'utf8'));
-const pages=[...makePages(inventory),...personaPages];
+const pages=[...makePages(inventory),...personaPages,...legalPages];
 for(const p of pages){if(coreCopy[p.id])p.h1=coreCopy[p.id].h1;if(profiles[p.id]&&['Service','Intégration','Secteur','Ressource'].includes(p.family))p.h1=profiles[p.id].title;}
 const origin=(config.publicOrigin||config.previewOrigin).replace(/\/$/,'');
 const indexable=Boolean(config.indexable&&config.publicOrigin);
@@ -24,6 +29,16 @@ const pageByUrl=Object.fromEntries(pages.map(p=>[p.url,p]));
 export const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export const button=(href,label,style='')=>`<a class="button ${style}" href="${href}">${label}</a>`;
 export const brand=brandLogo;
+// Sharing preview (Open Graph / X). The PNG is produced by qa/render-og-image.mjs and kept in assets.
+const ogImage={url:origin+'/assets/og-image.png',width:1200,height:630,alt:'100pilot.ai : automatisation et IA pour les PME'};
+// Meta descriptions come only from meta-descriptions.mjs (the inventory and copy files no longer hold them).
+const seenDescriptions=new Map();
+function metaDescription(p){
+ const d=descriptions[p.id];if(!d)throw Error('Missing meta description in meta-descriptions.mjs: '+p.id);
+ const n=[...d].length;if(n<120||n>155)throw Error(`Meta description of ${p.id} is ${n} characters (expected 120-155)`);
+ if(seenDescriptions.has(d))throw Error(`Duplicate meta description: ${p.id} and ${seenDescriptions.get(d)}`);
+ seenDescriptions.set(d,p.id);return d;
+}
 const parents={Service:['Services','/services/'],Solution:['Solutions','/solutions/'],Réalisation:['Réalisations','/realisations/'],Étude:['Études','/etudes/'],Ressource:['Ressources','/ressources/'],Intégration:['Intégrations','/integrations/'],Secteur:['Secteurs','/secteurs/'],Persona:['Votre équipe','/pour-votre-equipe/']};
 export function shell({title,description,url='/',body,type='Socle',h1=title}){
  const nav=[['/pour-votre-equipe/','Votre équipe'],['/services/','Services'],['/solutions/','Solutions'],['/realisations/','Réalisations'],['/etudes/','Études']];
@@ -36,7 +51,7 @@ export function shell({title,description,url='/',body,type='Socle',h1=title}){
  if(['Service','Solution'].includes(type))schema.push({'@context':'https://schema.org','@type':'Service',name:h1,description,url:origin+url,provider:{'@id':origin+'/#organization'}});
  if(['Réalisation','Étude','Ressource'].includes(type))schema.push({'@context':'https://schema.org','@type':'Article',headline:h1,description,inLanguage:'fr',mainEntityOfPage:origin+url,author:{'@type':'Organization',name:'100 Pilot'},publisher:{'@id':origin+'/#organization'}});
  if(type==='Persona'||url==='/pour-votre-equipe/')schema.push({'@context':'https://schema.org','@type':'WebPage',name:h1,description,url:origin+url,inLanguage:'fr',isPartOf:{'@id':origin+'/#website'}});
- return `<!doctype html><html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(title)}</title><meta name="description" content="${esc(description)}"><meta name="robots" content="${indexable?'index, follow':'noindex, nofollow'}"><link rel="canonical" href="${esc(origin+url)}"><meta name="theme-color" content="#04342C"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:type" content="${['Réalisation','Étude','Ressource'].includes(type)?'article':'website'}"><meta property="og:url" content="${esc(origin+url)}"><link rel="icon" type="image/svg+xml" href="/assets/logo-mark.svg"><link rel="stylesheet" href="/assets/site.css"><script src="/assets/site.js" defer></script><script type="application/ld+json">${JSON.stringify(schema).replace(/</g,'\\u003c')}</script></head><body><a class="skip" href="#main">Aller au contenu</a><header class="site-header"><div class="wrap header-inner">${brand}<button class="menu-toggle" data-menu-button aria-expanded="false" aria-controls="main-navigation">Menu</button><nav id="main-navigation" class="nav" aria-label="Navigation principale" data-menu>${nav.map(([u,l])=>`<a href="${u}" ${current===u?`aria-current="${url===u?'page':'true'}"`:''}>${l}</a>`).join('')}${button('/contact/','Parlons de votre projet')}</nav></div></header><main id="main">${body}</main><footer class="site-footer"><div class="wrap"><div class="footer-grid"><div>${brand}<p>Du pilotage manuel au pilote automatique. Nous vous aidons à choisir une première tâche, puis nous construisons et suivons la solution.</p></div><div><h3>Explorer</h3><div class="footer-links">${nav.map(([u,l])=>`<a href="${u}">${l}</a>`).join('')}</div></div><div><h3>100 Pilot</h3><div class="footer-links"><a href="/agence/">L’agence</a><a href="/ressources/">Les guides</a><a href="/methode/">Notre méthode</a><a href="/integrations/">Vos outils</a><a href="/secteurs/">Votre secteur</a><a href="/contact/">Préparer votre brief</a></div></div></div><div class="footer-base"><span>© 2026 100 Pilot</span><span>Automatisez vos tâches. Pilotez votre activité.</span></div></div></footer></body></html>`;
+ return `<!doctype html><html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(title)}</title><meta name="description" content="${esc(description)}"><meta name="robots" content="${indexable?'index, follow':'noindex, nofollow'}"><link rel="canonical" href="${esc(origin+url)}"><meta name="theme-color" content="#04342C"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:type" content="${['Réalisation','Étude','Ressource'].includes(type)?'article':'website'}"><meta property="og:url" content="${esc(origin+url)}"><meta property="og:image" content="${esc(ogImage.url)}"><meta property="og:image:type" content="image/png"><meta property="og:image:width" content="${ogImage.width}"><meta property="og:image:height" content="${ogImage.height}"><meta property="og:image:alt" content="${esc(ogImage.alt)}"><meta property="og:locale" content="fr_FR"><meta property="og:site_name" content="100 Pilot"><meta name="twitter:card" content="summary_large_image"><link rel="icon" type="image/svg+xml" href="/assets/logo-mark.svg"><link rel="stylesheet" href="/assets/site.css"><script src="/assets/site.js" defer></script><script type="application/ld+json">${JSON.stringify(schema).replace(/</g,'\\u003c')}</script></head><body><a class="skip" href="#main">Aller au contenu</a><header class="site-header"><div class="wrap header-inner">${brand}<button class="menu-toggle" data-menu-button aria-expanded="false" aria-controls="main-navigation">Menu</button><nav id="main-navigation" class="nav" aria-label="Navigation principale" data-menu>${nav.map(([u,l])=>`<a href="${u}" ${current===u?`aria-current="${url===u?'page':'true'}"`:''}>${l}</a>`).join('')}${button('/contact/','Parlons de votre projet')}</nav></div></header><main id="main">${body}</main><footer class="site-footer"><div class="wrap"><div class="footer-grid"><div>${brand}<p>Du pilotage manuel au pilote automatique. Nous vous aidons à choisir une première tâche, puis nous construisons et suivons la solution.</p></div><div><h3>Explorer</h3><div class="footer-links">${nav.map(([u,l])=>`<a href="${u}">${l}</a>`).join('')}</div></div><div><h3>100 Pilot</h3><div class="footer-links"><a href="/agence/">L’agence</a><a href="/ressources/">Les guides</a><a href="/methode/">Notre méthode</a><a href="/integrations/">Vos outils</a><a href="/secteurs/">Votre secteur</a><a href="/contact/">Préparer votre brief</a></div></div></div><div class="footer-base"><span>© 2026 100 Pilot</span><nav class="footer-legal" aria-label="Informations légales"><a href="/mentions-legales/">Mentions légales</a><a href="/confidentialite/">Confidentialité</a></nav><span>Automatisez vos tâches. Pilotez votre activité.</span></div></div></footer></body></html>`;
 }
 export function home(){return catalogueHome({button,cards,pages});}
 function crumbs(p){const parent=parents[p.family];return `<nav class="breadcrumbs" aria-label="Fil d’Ariane"><a href="/">Accueil</a><span aria-hidden="true">/</span>${parent?`<a href="${parent[1]}">${parent[0]}</a><span aria-hidden="true">/</span>`:''}<span aria-current="page">${esc(p.h1)}</span></nav>`;}
@@ -66,23 +81,28 @@ const intros={P010:agency,P011:method,P012:contact};
 for(const original of inventory.pages){const current=pages.find(p=>p.id===original.id);if(!current||current.url!==original.url){const oldPath=path.resolve(dist,'.'+original.url);if(!oldPath.startsWith(dist+path.sep))throw Error('Invalid cleanup path');await fs.rm(oldPath,{recursive:true,force:true});}}
 for(const oldRoute of Object.keys(routeChanges)){const oldPath=path.resolve(dist,'.'+oldRoute);if(!oldPath.startsWith(dist+path.sep))throw Error('Invalid cleanup path');await fs.rm(oldPath,{recursive:true,force:true});}
 await fs.mkdir(path.join(dist,'assets'),{recursive:true});
-for(const file of ['site.css','site.js','logo.svg','logo-mark.svg'])await fs.copyFile(path.join(root,'assets',file),path.join(dist,'assets',file));
+for(const file of ['site.css','site.js','logo.svg','logo-mark.svg','og-image.png'])await fs.copyFile(path.join(root,'assets',file),path.join(dist,'assets',file));
 const manifest=[];
 for(const p of pages){
  const h1=p.h1;
- const body=p.id==='P001'?home():p.id.startsWith('B')?hero(p,p.intro)+personaContent(p,{button,cards,pages}):intros[p.id]?intros[p.id](p):p.family==='Socle'?hub(p):detail(p);
- const intro=p.intro||coreCopy[p.id]?.intro||cases[p.id]?.intro||profiles[p.id]?.intro||content[p.id]?.intro||p.angle;const desc=p.description||coreCopy[p.id]?.description||(intro.length>165?intro.slice(0,162).replace(/\s+\S*$/,'')+'…':intro);
+ const body=p.id==='P001'?home():p.family==='Légal'?hero(p,p.intro)+legalContent(p):p.id.startsWith('B')?hero(p,p.intro)+personaContent(p,{button,cards,pages}):intros[p.id]?intros[p.id](p):p.family==='Socle'?hub(p):detail(p);
+ const desc=metaDescription(p);
  const title=p.id==='P001'?'100 Pilot | Automatisation et IA pour les PME':p.id==='P002'?'Services d’automatisation et IA pour les PME | 100 Pilot':p.title;
  const file=p.url==='/'?path.join(dist,'index.html'):path.join(dist,p.url,'index.html');await fs.mkdir(path.dirname(file),{recursive:true});
  const html=shell({title,description:desc,url:p.url,h1,type:p.family,body});
- if(/fluixo|\banfu\b|\bpvd\b|\bfava\b/i.test(html))throw Error('Excluded brand found in public copy');
+ // The legal pages must name the publisher company; every other page keeps the full exclusion list.
+ const excluded=p.family==='Légal'?/fluixo|\bpvd\b|\bfava\b/i:/fluixo|\banfu\b|\bpvd\b|\bfava\b/i;
+ if(excluded.test(html))throw Error('Excluded brand found in public copy: '+p.id);
  await fs.writeFile(file,html);
  manifest.push({id:p.id,url:p.url,family:p.family,title,h1,description:desc,sourceIds:p.refs,status:cases[p.id]?.status||null,workflowIds:workflows.filter(w=>w.pageIds.includes(p.id)).map(w=>w.id)});
 }
 await fs.writeFile(path.join(dist,'404.html'),shell({title:'Page introuvable | 100 Pilot',description:'Retrouvez les services et solutions 100 Pilot.',body:'<section class="section wrap empty-state"><div class="eyebrow">Page introuvable</div><h1>Cette page est introuvable.</h1><p class="notice">Cette page n’existe pas ou a changé d’adresse.</p><div class="actions">'+button('/','Revenir à l’accueil')+'</div></section>'}));
 await fs.writeFile(path.join(dist,'robots.txt'),indexable?`User-agent: *\nAllow: /\nSitemap: ${origin}/sitemap.xml\n`:'User-agent: *\nDisallow: /\n');
-await fs.writeFile(path.join(dist,'sitemap.xml'),`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${pages.map(p=>`<url><loc>${esc(origin+p.url)}</loc><lastmod>2026-10-02</lastmod></url>`).join('')}</urlset>`);
-await fs.writeFile(path.join(root,'page-manifest.json'),JSON.stringify({generatedAt:'2026-10-02',localOnly:!indexable,origin,pages:manifest},null,2));
+await fs.writeFile(path.join(dist,'sitemap.xml'),`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${pages.map(p=>`<url><loc>${esc(origin+p.url)}</loc><lastmod>${contentDate}</lastmod></url>`).join('')}</urlset>`);
+// GitHub Pages reads the custom domain from CNAME on the published branch: keep it in dist so a deploy never drops it.
+if(indexable)await fs.writeFile(path.join(dist,'CNAME'),new URL(origin).host);
+const unused=Object.keys(descriptions).filter(id=>!pages.some(p=>p.id===id));if(unused.length)throw Error('Meta descriptions for unknown pages: '+unused.join(', '));
+await fs.writeFile(path.join(root,'page-manifest.json'),JSON.stringify({generatedAt:contentDate,localOnly:!indexable,origin,pages:manifest},null,2));
 const workflowCoverage=coverage(inventory,pages);if(workflowCoverage.some(w=>w.pageIds.length===0))throw Error('Uncovered workflow');
 await fs.writeFile(path.join(root,'workflow-coverage.json'),JSON.stringify({workflows:workflowCoverage.length,covered:workflowCoverage.filter(w=>w.pageIds.length>0).length,pages:pages.length,mergedPages,rows:workflowCoverage},null,2));
 console.log(`100 Pilot: ${pages.length} reader-focused pages; ${workflowCoverage.length} workflows covered.`);

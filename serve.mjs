@@ -5,7 +5,7 @@ import {fileURLToPath} from 'node:url';
 const root = path.join(path.dirname(fileURLToPath(import.meta.url)), 'dist');
 const port = Number(process.env.PORT || 18762);
 const types = {'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.json':'application/json; charset=utf-8','.svg':'image/svg+xml','.png':'image/png','.jpg':'image/jpeg','.webp':'image/webp','.woff2':'font/woff2','.txt':'text/plain; charset=utf-8','.xml':'application/xml; charset=utf-8'};
-http.createServer(async(req,res)=>{
+const server=http.createServer(async(req,res)=>{
   if(!['GET','HEAD'].includes(req.method)){res.writeHead(405,{'Allow':'GET, HEAD'});return res.end();}
   let route;try{route=decodeURIComponent(new URL(req.url,'http://localhost').pathname);}catch{res.writeHead(400);return res.end();}
   const target=path.resolve(root,'.'+route);
@@ -23,4 +23,6 @@ http.createServer(async(req,res)=>{
     const data=await fs.readFile(path.join(root,'404.html')).catch(()=>Buffer.from('Page introuvable'));
     res.writeHead(404,{'Content-Type':'text/html; charset=utf-8','X-Robots-Tag':'noindex'});res.end(req.method==='HEAD'?undefined:data);
   }
-}).listen(port,'127.0.0.1',()=>console.log(`100 Pilot local preview: http://127.0.0.1:${port}/`));
+});
+// PORT=0 picks a free port; the log line gives the real address (npm run check reads it).
+server.listen(port,'127.0.0.1',()=>console.log(`100 Pilot local preview: http://127.0.0.1:${server.address().port}/`));

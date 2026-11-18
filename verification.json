@@ -1,562 +1,692 @@
 {
-  "pages": 110,
+  "checkedAt": "local dist via serve.mjs",
+  "origin": "https://100pilot.ai",
+  "indexable": true,
+  "pages": 112,
   "visibleWorkflows": 47,
-  "uniqueTitles": 110,
-  "uniqueDescriptions": 110,
-  "internalRoutesAndAssets": 113,
-  "schemas": 418,
+  "uniqueTitles": 112,
+  "uniqueDescriptions": 112,
+  "descriptionLength": {
+    "min": 134,
+    "max": 155
+  },
+  "sharingImage": "1200x630",
+  "internalRoutesAndAssets": 115,
+  "schemas": 424,
   "unknownRoute": 404,
   "failures": [],
   "result": [
     {
       "url": "/",
       "status": 200,
-      "mainWords": 764
+      "mainWords": 764,
+      "descriptionLength": 155
     },
     {
       "url": "/services/",
       "status": 200,
-      "mainWords": 931
+      "mainWords": 931,
+      "descriptionLength": 146
     },
     {
       "url": "/solutions/",
       "status": 200,
-      "mainWords": 1862
+      "mainWords": 1862,
+      "descriptionLength": 151
     },
     {
       "url": "/realisations/",
       "status": 200,
-      "mainWords": 727
+      "mainWords": 727,
+      "descriptionLength": 142
     },
     {
       "url": "/etudes/",
       "status": 200,
-      "mainWords": 605
+      "mainWords": 605,
+      "descriptionLength": 138
     },
     {
       "url": "/secteurs/",
       "status": 200,
-      "mainWords": 259
+      "mainWords": 259,
+      "descriptionLength": 155
     },
     {
       "url": "/integrations/",
       "status": 200,
-      "mainWords": 243
+      "mainWords": 243,
+      "descriptionLength": 147
     },
     {
       "url": "/ressources/",
       "status": 200,
-      "mainWords": 432
+      "mainWords": 432,
+      "descriptionLength": 146
     },
     {
       "url": "/agence/",
       "status": 200,
-      "mainWords": 448
+      "mainWords": 503,
+      "descriptionLength": 149
     },
     {
       "url": "/methode/",
       "status": 200,
-      "mainWords": 385
+      "mainWords": 433,
+      "descriptionLength": 154
     },
     {
       "url": "/contact/",
       "status": 200,
-      "mainWords": 166
+      "mainWords": 166,
+      "descriptionLength": 151
     },
     {
       "url": "/services/audit-automatisation/",
       "status": 200,
-      "mainWords": 695
+      "mainWords": 695,
+      "descriptionLength": 154
     },
     {
       "url": "/services/automatisation-odoo/",
       "status": 200,
-      "mainWords": 927
+      "mainWords": 927,
+      "descriptionLength": 150
     },
     {
       "url": "/services/prospection-b2b/",
       "status": 200,
-      "mainWords": 796
+      "mainWords": 796,
+      "descriptionLength": 153
     },
     {
       "url": "/services/contenu-produit-seo/",
       "status": 200,
-      "mainWords": 662
+      "mainWords": 662,
+      "descriptionLength": 145
     },
     {
       "url": "/services/automatisation-administrative/",
       "status": 200,
-      "mainWords": 755
+      "mainWords": 755,
+      "descriptionLength": 149
     },
     {
       "url": "/services/agents-ia-supervises/",
       "status": 200,
-      "mainWords": 524
+      "mainWords": 524,
+      "descriptionLength": 152
     },
     {
       "url": "/services/portails-metier/",
       "status": 200,
-      "mainWords": 671
+      "mainWords": 671,
+      "descriptionLength": 144
     },
     {
       "url": "/services/documentation-technique/",
       "status": 200,
-      "mainWords": 579
+      "mainWords": 579,
+      "descriptionLength": 146
     },
     {
       "url": "/services/audit-seo-geo/",
       "status": 200,
-      "mainWords": 598
+      "mainWords": 598,
+      "descriptionLength": 139
     },
     {
       "url": "/services/outils-conversion-b2b/",
       "status": 200,
-      "mainWords": 659
+      "mainWords": 659,
+      "descriptionLength": 154
     },
     {
       "url": "/services/prototype-metier/",
       "status": 200,
-      "mainWords": 695
+      "mainWords": 695,
+      "descriptionLength": 151
     },
     {
       "url": "/services/maintenance-automatisations/",
       "status": 200,
-      "mainWords": 584
+      "mainWords": 584,
+      "descriptionLength": 153
     },
     {
       "url": "/solutions/consolidation-stocks-fournisseurs/",
       "status": 200,
-      "mainWords": 580
+      "mainWords": 580,
+      "descriptionLength": 152
     },
     {
       "url": "/solutions/commandes-fournisseurs/",
       "status": 200,
-      "mainWords": 541
+      "mainWords": 541,
+      "descriptionLength": 147
     },
     {
       "url": "/solutions/disponibilite-fournisseurs/",
       "status": 200,
-      "mainWords": 620
+      "mainWords": 620,
+      "descriptionLength": 143
     },
     {
       "url": "/solutions/grille-prix-revendeurs/",
       "status": 200,
-      "mainWords": 529
+      "mainWords": 529,
+      "descriptionLength": 152
     },
     {
       "url": "/solutions/listes-prix-odoo/",
       "status": 200,
-      "mainWords": 518
+      "mainWords": 518,
+      "descriptionLength": 134
     },
     {
       "url": "/solutions/nettoyage-catalogue/",
       "status": 200,
-      "mainWords": 519
+      "mainWords": 519,
+      "descriptionLength": 149
     },
     {
       "url": "/solutions/variantes-sku/",
       "status": 200,
-      "mainWords": 512
+      "mainWords": 512,
+      "descriptionLength": 150
     },
     {
       "url": "/solutions/enrichissement-fiches-produits/",
       "status": 200,
-      "mainWords": 543
+      "mainWords": 543,
+      "descriptionLength": 145
     },
     {
       "url": "/solutions/catalogues-personnalises/",
       "status": 200,
-      "mainWords": 536
+      "mainWords": 536,
+      "descriptionLength": 148
     },
     {
       "url": "/solutions/rapprochement-crm/",
       "status": 200,
-      "mainWords": 560
+      "mainWords": 560,
+      "descriptionLength": 140
     },
     {
       "url": "/solutions/enrichissement-entreprises/",
       "status": 200,
-      "mainWords": 524
+      "mainWords": 524,
+      "descriptionLength": 147
     },
     {
       "url": "/solutions/sourcing-leads-b2b/",
       "status": 200,
-      "mainWords": 576
+      "mainWords": 576,
+      "descriptionLength": 152
     },
     {
       "url": "/solutions/prospection-clubs-sportifs/",
       "status": 200,
-      "mainWords": 521
+      "mainWords": 521,
+      "descriptionLength": 154
     },
     {
       "url": "/solutions/prospection-textile-entreprises/",
       "status": 200,
-      "mainWords": 523
+      "mainWords": 523,
+      "descriptionLength": 154
     },
     {
       "url": "/solutions/infrastructure-email/",
       "status": 200,
-      "mainWords": 537
+      "mainWords": 537,
+      "descriptionLength": 152
     },
     {
       "url": "/solutions/classement-factures/",
       "status": 200,
-      "mainWords": 553
+      "mainWords": 553,
+      "descriptionLength": 148
     },
     {
       "url": "/solutions/relances-impayes/",
       "status": 200,
-      "mainWords": 554
+      "mainWords": 554,
+      "descriptionLength": 149
     },
     {
       "url": "/solutions/suivi-couverture-credit/",
       "status": 200,
-      "mainWords": 551
+      "mainWords": 551,
+      "descriptionLength": 148
     },
     {
       "url": "/solutions/quiz-qualification/",
       "status": 200,
-      "mainWords": 524
+      "mainWords": 524,
+      "descriptionLength": 151
     },
     {
       "url": "/solutions/calculateur-cout/",
       "status": 200,
-      "mainWords": 515
+      "mainWords": 515,
+      "descriptionLength": 152
     },
     {
       "url": "/solutions/formulaires-contextuels/",
       "status": 200,
-      "mainWords": 531
+      "mainWords": 531,
+      "descriptionLength": 151
     },
     {
       "url": "/solutions/fidelite-crm/",
       "status": 200,
-      "mainWords": 535
+      "mainWords": 535,
+      "descriptionLength": 148
     },
     {
       "url": "/solutions/portail-suivi-dossiers/",
       "status": 200,
-      "mainWords": 534
+      "mainWords": 534,
+      "descriptionLength": 139
     },
     {
       "url": "/solutions/pdf-vers-documentation/",
       "status": 200,
-      "mainWords": 534
+      "mainWords": 534,
+      "descriptionLength": 151
     },
     {
       "url": "/solutions/contenu-multilingue/",
       "status": 200,
-      "mainWords": 511
+      "mainWords": 511,
+      "descriptionLength": 142
     },
     {
       "url": "/solutions/publication-produits/",
       "status": 200,
-      "mainWords": 536
+      "mainWords": 536,
+      "descriptionLength": 146
     },
     {
       "url": "/solutions/validation-agents-ia/",
       "status": 200,
-      "mainWords": 503
+      "mainWords": 503,
+      "descriptionLength": 149
     },
     {
       "url": "/realisations/distribution-b2b-automatisation-odoo/",
       "status": 200,
-      "mainWords": 802
+      "mainWords": 802,
+      "descriptionLength": 155
     },
     {
       "url": "/realisations/distribution-b2b-stocks-fournisseurs/",
       "status": 200,
-      "mainWords": 547
+      "mainWords": 547,
+      "descriptionLength": 152
     },
     {
       "url": "/realisations/distribution-b2b-prospection/",
       "status": 200,
-      "mainWords": 539
+      "mainWords": 539,
+      "descriptionLength": 152
     },
     {
       "url": "/realisations/distribution-b2b-attributs-catalogue/",
       "status": 200,
-      "mainWords": 519
+      "mainWords": 519,
+      "descriptionLength": 155
     },
     {
       "url": "/realisations/distribution-b2b-nettoyage-catalogue/",
       "status": 200,
-      "mainWords": 520
+      "mainWords": 520,
+      "descriptionLength": 147
     },
     {
       "url": "/realisations/distribution-b2b-rapprochement-crm/",
       "status": 200,
-      "mainWords": 544
+      "mainWords": 544,
+      "descriptionLength": 148
     },
     {
       "url": "/realisations/distribution-b2b-import-crm/",
       "status": 200,
-      "mainWords": 528
+      "mainWords": 528,
+      "descriptionLength": 141
     },
     {
       "url": "/realisations/recrutement-parcours-commercial/",
       "status": 200,
-      "mainWords": 541
+      "mainWords": 541,
+      "descriptionLength": 146
     },
     {
       "url": "/realisations/recrutement-quiz-orientation/",
       "status": 200,
-      "mainWords": 526
+      "mainWords": 526,
+      "descriptionLength": 148
     },
     {
       "url": "/realisations/recrutement-calculateur/",
       "status": 200,
-      "mainWords": 520
+      "mainWords": 520,
+      "descriptionLength": 153
     },
     {
       "url": "/realisations/services-b2b-contenus/",
       "status": 200,
-      "mainWords": 506
+      "mainWords": 506,
+      "descriptionLength": 142
     },
     {
       "url": "/realisations/formation-manuel-technique/",
       "status": 200,
-      "mainWords": 555
+      "mainWords": 555,
+      "descriptionLength": 140
     },
     {
       "url": "/realisations/infrastructure-prospection-email/",
       "status": 200,
-      "mainWords": 513
+      "mainWords": 513,
+      "descriptionLength": 153
     },
     {
       "url": "/etudes/diagnostic-portail-suivi/",
       "status": 200,
-      "mainWords": 590
+      "mainWords": 590,
+      "descriptionLength": 149
     },
     {
       "url": "/realisations/ecommerce-parcours-langues/",
       "status": 200,
-      "mainWords": 593
+      "mainWords": 593,
+      "descriptionLength": 154
     },
     {
       "url": "/realisations/ecommerce-publication-supervisee/",
       "status": 200,
-      "mainWords": 620
+      "mainWords": 620,
+      "descriptionLength": 151
     },
     {
       "url": "/etudes/migration-site-multilingue/",
       "status": 200,
-      "mainWords": 512
+      "mainWords": 512,
+      "descriptionLength": 149
     },
     {
       "url": "/etudes/marketing-assistants-supervises/",
       "status": 200,
-      "mainWords": 488
+      "mainWords": 488,
+      "descriptionLength": 147
     },
     {
       "url": "/etudes/sport-textile-automatisation/",
       "status": 200,
-      "mainWords": 1073
+      "mainWords": 1073,
+      "descriptionLength": 153
     },
     {
       "url": "/etudes/sport-textile-commandes-stocks/",
       "status": 200,
-      "mainWords": 599
+      "mainWords": 599,
+      "descriptionLength": 151
     },
     {
       "url": "/etudes/sport-textile-prospection/",
       "status": 200,
-      "mainWords": 657
+      "mainWords": 657,
+      "descriptionLength": 152
     },
     {
       "url": "/etudes/sport-textile-factures-frais/",
       "status": 200,
-      "mainWords": 567
+      "mainWords": 567,
+      "descriptionLength": 147
     },
     {
       "url": "/etudes/retail-programme-fidelite/",
       "status": 200,
-      "mainWords": 556
+      "mainWords": 556,
+      "descriptionLength": 147
     },
     {
       "url": "/etudes/restauration-commandes-fidelite/",
       "status": 200,
-      "mainWords": 639
+      "mainWords": 639,
+      "descriptionLength": 154
     },
     {
       "url": "/etudes/production-tracabilite-lots/",
       "status": 200,
-      "mainWords": 570
+      "mainWords": 570,
+      "descriptionLength": 154
     },
     {
       "url": "/etudes/missions-disponibilites/",
       "status": 200,
-      "mainWords": 484
+      "mainWords": 484,
+      "descriptionLength": 154
     },
     {
       "url": "/realisations/audit-site-b2b/",
       "status": 200,
-      "mainWords": 506
+      "mainWords": 506,
+      "descriptionLength": 143
     },
     {
       "url": "/etudes/ecommerce-catalogue-multilingue/",
       "status": 200,
-      "mainWords": 488
+      "mainWords": 488,
+      "descriptionLength": 151
     },
     {
       "url": "/secteurs/distribution-b2b/",
       "status": 200,
-      "mainWords": 773
+      "mainWords": 773,
+      "descriptionLength": 154
     },
     {
       "url": "/secteurs/equipement-sport-textile/",
       "status": 200,
-      "mainWords": 731
+      "mainWords": 731,
+      "descriptionLength": 155
     },
     {
       "url": "/secteurs/services-b2b/",
       "status": 200,
-      "mainWords": 718
+      "mainWords": 718,
+      "descriptionLength": 152
     },
     {
       "url": "/secteurs/restauration-retail/",
       "status": 200,
-      "mainWords": 685
+      "mainWords": 685,
+      "descriptionLength": 153
     },
     {
       "url": "/secteurs/formation-technique/",
       "status": 200,
-      "mainWords": 551
+      "mainWords": 551,
+      "descriptionLength": 153
     },
     {
       "url": "/integrations/odoo/",
       "status": 200,
-      "mainWords": 540
+      "mainWords": 540,
+      "descriptionLength": 148
     },
     {
       "url": "/integrations/google-drive/",
       "status": 200,
-      "mainWords": 496
+      "mainWords": 496,
+      "descriptionLength": 152
     },
     {
       "url": "/integrations/email/",
       "status": 200,
-      "mainWords": 530
+      "mainWords": 530,
+      "descriptionLength": 143
     },
     {
       "url": "/integrations/flux-fournisseurs/",
       "status": 200,
-      "mainWords": 533
+      "mainWords": 533,
+      "descriptionLength": 153
     },
     {
       "url": "/integrations/wordpress/",
       "status": 200,
-      "mainWords": 514
+      "mainWords": 514,
+      "descriptionLength": 144
     },
     {
       "url": "/ressources/prioriser-automatisations/",
       "status": 200,
-      "mainWords": 418
+      "mainWords": 418,
+      "descriptionLength": 150
     },
     {
       "url": "/ressources/mesurer-roi-automatisation/",
       "status": 200,
-      "mainWords": 409
+      "mainWords": 409,
+      "descriptionLength": 153
     },
     {
       "url": "/ressources/regles-ou-agents-ia/",
       "status": 200,
-      "mainWords": 384
+      "mainWords": 384,
+      "descriptionLength": 155
     },
     {
       "url": "/ressources/validation-humaine/",
       "status": 200,
-      "mainWords": 375
+      "mainWords": 375,
+      "descriptionLength": 144
     },
     {
       "url": "/ressources/preparer-integration-odoo/",
       "status": 200,
-      "mainWords": 409
+      "mainWords": 409,
+      "descriptionLength": 151
     },
     {
       "url": "/ressources/factures-multisocietes/",
       "status": 200,
-      "mainWords": 413
+      "mainWords": 413,
+      "descriptionLength": 153
     },
     {
       "url": "/ressources/qualite-fiches-produits-ia/",
       "status": 200,
-      "mainWords": 403
+      "mainWords": 403,
+      "descriptionLength": 144
     },
     {
       "url": "/ressources/rapprochement-crm-siret/",
       "status": 200,
-      "mainWords": 389
+      "mainWords": 389,
+      "descriptionLength": 151
     },
     {
       "url": "/ressources/prototype-vers-production/",
       "status": 200,
-      "mainWords": 366
+      "mainWords": 366,
+      "descriptionLength": 150
     },
     {
       "url": "/ressources/case-study-seo-geo/",
       "status": 200,
-      "mainWords": 411
+      "mainWords": 411,
+      "descriptionLength": 140
     },
     {
       "url": "/solutions/marges-circuits-vente/",
       "status": 200,
-      "mainWords": 518
+      "mainWords": 518,
+      "descriptionLength": 144
     },
     {
       "url": "/solutions/preparation-import-crm/",
       "status": 200,
-      "mainWords": 534
+      "mainWords": 534,
+      "descriptionLength": 145
     },
     {
       "url": "/solutions/commandes-directes/",
       "status": 200,
-      "mainWords": 523
+      "mainWords": 523,
+      "descriptionLength": 150
     },
     {
       "url": "/solutions/assistant-commande-bilingue/",
       "status": 200,
-      "mainWords": 527
+      "mainWords": 527,
+      "descriptionLength": 144
     },
     {
       "url": "/solutions/tracabilite-lots/",
       "status": 200,
-      "mainWords": 478
+      "mainWords": 478,
+      "descriptionLength": 152
     },
     {
       "url": "/solutions/rapprochement-lots-acheteurs/",
       "status": 200,
-      "mainWords": 491
+      "mainWords": 491,
+      "descriptionLength": 151
     },
     {
       "url": "/solutions/suivi-missions-disponibilites/",
       "status": 200,
-      "mainWords": 464
+      "mainWords": 464,
+      "descriptionLength": 138
     },
     {
       "url": "/etudes/hotellerie-suivi-operations/",
       "status": 200,
-      "mainWords": 514
+      "mainWords": 514,
+      "descriptionLength": 149
     },
     {
       "url": "/pour-votre-equipe/",
       "status": 200,
-      "mainWords": 174
+      "mainWords": 174,
+      "descriptionLength": 150
     },
     {
       "url": "/pour-votre-equipe/dirigeant-pme/",
       "status": 200,
-      "mainWords": 529
+      "mainWords": 529,
+      "descriptionLength": 149
     },
     {
       "url": "/pour-votre-equipe/responsable-commercial/",
       "status": 200,
-      "mainWords": 635
+      "mainWords": 635,
+      "descriptionLength": 147
     },
     {
       "url": "/pour-votre-equipe/responsable-operations/",
       "status": 200,
-      "mainWords": 635
+      "mainWords": 635,
+      "descriptionLength": 150
+    },
+    {
+      "url": "/mentions-legales/",
+      "status": 200,
+      "mainWords": 139,
+      "descriptionLength": 146
+    },
+    {
+      "url": "/confidentialite/",
+      "status": 200,
+      "mainWords": 407,
+      "descriptionLength": 141
     }
   ]
 }
